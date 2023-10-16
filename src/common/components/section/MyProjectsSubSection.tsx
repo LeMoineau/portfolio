@@ -3,6 +3,7 @@ import SubSection from '../misc/SubSection'
 import StandardButton from '../buttons/StandardButton'
 import React from 'react'
 import CustomIcon from '../img/CustomIcon'
+import RightArrow from '../img/RightArrow'
 
 const projects: React.ReactNode[] = []
 for (let i = 0; i < 10; i++) {
@@ -27,7 +28,9 @@ export default function MyProjectsSubSection() {
             title="My Projects"
             actions={
                 <Link href={'/projects'}>
-                    <StandardButton rightArrow>View more</StandardButton>
+                    <StandardButton appendChild={<RightArrow></RightArrow>}>
+                        View more
+                    </StandardButton>
                 </Link>
             }
         >

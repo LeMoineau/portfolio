@@ -2,6 +2,7 @@ import CustomIcon from '../img/CustomIcon'
 import Link from 'next/link'
 import { interMedium } from '@/common/utils/font'
 import Avatar from '../img/Avatar'
+import CustomLink from '../text/CustomLink'
 
 export default function GlobalBackground() {
     return (
@@ -28,13 +29,13 @@ export default function GlobalBackground() {
                     </p>
                     <p className="text-sm md:text-base text-slate-500 mt-3 md:mt-0">
                         Have an exciting project?{' '}
-                        <Link href={'/'} className="text-blue-700">
+                        <CustomLink href="/" decoration noblank>
                             Contact me
-                        </Link>
+                        </CustomLink>
                         ! Or see my{' '}
-                        <Link href={'/'} className="text-blue-700">
+                        <CustomLink href="/projects" decoration noblank>
                             previous projects
-                        </Link>
+                        </CustomLink>
                         !
                     </p>
                 </div>
