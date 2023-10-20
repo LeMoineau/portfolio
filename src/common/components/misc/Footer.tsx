@@ -18,7 +18,7 @@ export default function Footer() {
                 <span className="text-blue-400">together</span>!
             </Title>
             <p className="text-gray-700 text-center mt-1 text-sm">
-                Creating websites and application to fit your business!
+                Creating websites and application to fit your business
             </p>
             <div className="flex flex-row justify-center my-6">
                 <Avatar className="w-14 h-14" available></Avatar>

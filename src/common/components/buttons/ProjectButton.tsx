@@ -19,16 +19,16 @@ export default function ProjectButton({
         <Link href={href} className="">
             <CustomIcon
                 src={img}
-                className="pt-[75%] rounded drop-shadow"
+                className="pt-[100%] rounded drop-shadow"
             ></CustomIcon>
-            <p className="my-1">
+            {/* <p className="my-1">
                 <span className="font-semibold">{title}</span> {desc}
             </p>
             <div className="flex flex-row w-full flex-wrap">
                 {tags.map((val) => (
                     <ProjectTag tag={val}></ProjectTag>
                 ))}
-            </div>
+            </div> */}
         </Link>
     )
 }

@@ -14,7 +14,7 @@ for (let i = 0; i < 10; i++) {
             className="h-auto w-auto rounded-lg"
         >
             <CustomIcon
-                src={'/img/ahoy.jpg'}
+                src={'/img/ahoy.png'}
                 alt="MyMajor"
                 className="w-40 h-40 md:w-56 md:h-56 rounded drop-shadow"
             ></CustomIcon>
