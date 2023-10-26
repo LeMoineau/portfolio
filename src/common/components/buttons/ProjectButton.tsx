@@ -21,14 +21,19 @@ export default function ProjectButton({
     return (
         <Link
             href={href}
-            className="bg-white drop-shadow md:drop-shadow-none rounded-lg h-fit overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
+            className="bg-white drop-shadow rounded h-fit overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
         >
-            <CustomIcon
-                src={img}
-                className="pt-[75%] rounded-sm drop-shadow-md hover:drop-shadow-lg transition-all mb-4"
-            ></CustomIcon>
-            <div className="p-3 text-center md:hidden">
-                <h3 className="font-semibold mb-1">{title}</h3>
+            <div className="w-full h-fit p-4 ">
+                <div className="w-full h-fit bg-orange-400 rounded drop-shadow overflow-hidden">
+                    <CustomIcon
+                        src={img}
+                        className="pt-[75%] rounded-sm drop-shadow-md"
+                    ></CustomIcon>
+                </div>
+            </div>
+
+            <div className="pt-1 pb-5 px-5 text-center">
+                <h3 className="text-center font-semibold mt-0">{title}</h3>
                 <p className="text-sm text-gray-700 ">{desc}</p>
                 <div className="flex flex-row hidden w-full flex-wrap space-x-2 mt-3">
                     {tags.map((val) => (

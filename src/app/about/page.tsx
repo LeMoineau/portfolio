@@ -3,7 +3,7 @@ import Title from '@/common/components/text/Title'
 
 export default function About() {
     return (
-        <Section className="px-10 py-5">
+        <Section className="px-10 py-5 my-8">
             <Title className="mt-5 mb-3">
                 <span className="text-green-500">Hi</span>! my name is{' '}
                 <span className="text-sky-500">Pierre</span>

@@ -24,7 +24,7 @@ export default function ProjectSection({
     })
 
     return (
-        <div className="flex flex-col-reverse md:flex-row">
+        <div className="flex flex-col-reverse md:flex-row py-8">
             <Section className="md:px-10 md:pt-10">
                 <Link href={'/projects'}>
                     <StandardButton

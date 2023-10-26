@@ -9,7 +9,7 @@ export default function Section({
 }) {
     return (
         <div
-            className={`${className} relative top-0 left-0 bg-white w-full drop-shadow border border-gray-50 rounded-lg p-4 mt-4`}
+            className={`${className} relative top-0 left-0 bg-white w-full drop-shadow border border-gray-50 rounded-lg p-4`}
         >
             {children}
         </div>

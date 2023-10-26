@@ -9,7 +9,7 @@ export default function defaultProject() {
     const allProjectsKeys = Object.keys(projectsData)
     return (
         <>
-            <Section className="p-8 md:pb-0 md:rounded-b-none md:drop-shadow-none">
+            <Section className="p-8 mt-4 md:mt-8">
                 <Title className="">
                     My <span className="text-green-500">Projects</span>.
                 </Title>
@@ -20,7 +20,7 @@ export default function defaultProject() {
                     to complete mobile app.
                 </p>
             </Section>
-            <div className="w-full md:bg-white grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-4 pt-2 md:pt-8 md:px-8 rounded-b-lg">
+            <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-4 md:mt-4 pt-2 rounded-b-lg">
                 {Object.keys(projectsData)
                     .sort((a, b) => {
                         return (

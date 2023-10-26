@@ -12,7 +12,7 @@ import Title from '../text/Title'
 
 export default function Footer() {
     return (
-        <Section className="rounded-b-none">
+        <Section className="rounded-b-none mt-4">
             <Title className={`w-full mt-2 text-center`}>
                 Let's <span className="text-pink-500">work</span>{' '}
                 <span className="text-blue-400">together</span>!
