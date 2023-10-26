@@ -9,7 +9,9 @@ import SubSubTitle from '../text/SubSubTitle'
 import StackTag from '../text/StackTag'
 import CustomLink from '../text/CustomLink'
 import AvatarTag from '../text/AvatarTag'
-import { ProjectData } from '@/app/projects/[...project-name]/projects-data'
+import { ProjectData } from '@/common/resources/projects-data'
+import ProjectTag from '../text/ProjectTag'
+import Divider from '../text/Divider'
 
 export default function ProjectSection({
     projectData,
@@ -33,13 +35,14 @@ export default function ProjectSection({
                         Back to projects
                     </StandardButton>
                 </Link>
-                <Title className="mt-5">
+                <Title className="my-3 mt-7">
                     {projectData.title}{' '}
                     <span className="text-base font-normal text-gray-600">
                         {formatter.format(projectData.date)}
                     </span>
                 </Title>
-                <p className="mb-5">{projectData.desc}</p>
+                <Divider className="my-5"></Divider>
+                <p className="my-2 text-sm text-gray-700">{projectData.desc}</p>
                 <CustomIcon
                     src={projectData.img}
                     className="pt-[75%] rounded drop-shadow"
@@ -48,10 +51,24 @@ export default function ProjectSection({
             <div className="md:w-1/2 h-full md:ml-5">
                 <Section>
                     <SubSection>
+                        <SubSubTitle>Project Tag</SubSubTitle>
+                        <div className="flex flex-row flex-wrap w-full mt-1">
+                            {projectData.tags.map((t, i) => (
+                                <ProjectTag
+                                    key={i}
+                                    tag={t}
+                                    className="mr-2 my-1"
+                                ></ProjectTag>
+                            ))}
+                        </div>
+                    </SubSection>
+                    <SubSection className="mt-5">
                         <SubSubTitle>Project Stack</SubSubTitle>
                         <div className="flex flex-row flex-wrap w-full mt-1">
                             {projectData.stack.map((s, i) => (
-                                <StackTag key={i}>{s}</StackTag>
+                                <StackTag key={i} className="mr-2 my-1">
+                                    {s}
+                                </StackTag>
                             ))}
                         </div>
                     </SubSection>

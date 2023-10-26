@@ -19,7 +19,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.className} bg-slate-50 w-full flex flex-col justify-center items-center`}
+                className={`${inter.className} bg-sky-200 w-full flex flex-col justify-center items-center`}
             >
                 <div className="w-full max-w-[70rem] px-4 md:px-8 pt-5 pb-0">
                     <Header></Header>

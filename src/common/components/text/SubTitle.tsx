@@ -7,7 +7,7 @@ export default function SubTitle({
     children: string | React.ReactNode
 }) {
     return (
-        <h2 className={`${interMedium.className} text-gray-700 md:text-xl`}>
+        <h2 className={`${interMedium} text-gray-700 md:text-xl`}>
             {children}
         </h2>
     )

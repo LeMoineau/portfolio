@@ -9,9 +9,5 @@ export default function BackgroundText({
     className?: string
     bg: string
 }) {
-    return (
-        <p className={`${className} ${bg} px-2 py-1 text-xs mx-1 my-1`}>
-            {children}
-        </p>
-    )
+    return <p className={`${className} ${bg} px-2 py-1 text-xs`}>{children}</p>
 }
