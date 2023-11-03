@@ -32,11 +32,7 @@ export default function defaultProject() {
                         const project = projectsData[key]
                         return (
                             <ProjectButton
-                                title={project.title}
-                                desc={project.desc}
-                                img={project.img}
-                                tags={project.tags}
-                                href={`/projects/${key}`}
+                                projectData={project}
                                 key={i}
                             ></ProjectButton>
                         )

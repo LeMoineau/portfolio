@@ -1,31 +1,4 @@
-export interface ProjectData {
-    title: string
-    desc: string
-    img: string
-    tags: string[]
-    date: Date
-    stack: string[]
-    link?: string
-    repository?: string
-    client?: Client[]
-}
-
-export interface Client {
-    name: string
-    link: string
-    img: string
-    bg: string
-}
-
-export const clients: { [key: string]: Client } = {
-    efrei: {
-        name: 'EFREI Paris',
-        bg: 'bg-blue-200',
-        img: '/img/projects/efrei.webp',
-        link: 'https://www.efrei.fr/',
-    },
-    //INSA, SGDF, Potions
-}
+import { ProjectData } from '../interfaces/project-data'
 
 export const projectsData: { [key: string]: ProjectData } = {
     ahoy: {
@@ -44,6 +17,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         ],
         link: 'https://picpotions2022.pages.insa-rouen.fr/realisation/',
         repository: 'https://picpotions2022.pages.insa-rouen.fr/realisation/',
+        color: 'bg-sky-200',
     },
     mymajor: {
         title: 'myMajor',
@@ -54,6 +28,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         stack: ['HTML', 'CSS', 'Javascript', 'vscode'],
         link: 'https://bigstones.fr/myMajor',
         repository: 'https://github.com/LeMoineau/myMajor',
+        color: 'bg-indigo-200',
     },
     blogame: {
         title: 'BloGame',
@@ -73,6 +48,7 @@ export const projectsData: { [key: string]: ProjectData } = {
             'vscode',
         ],
         repository: 'https://github.com/LeMoineau/blogame',
+        color: 'bg-green-200',
     },
     bubbles: {
         title: 'Bubbles',
@@ -93,6 +69,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         ],
         link: 'https://bigstones.fr/Network',
         repository: 'https://github.com/LeMoineau/bubbles',
+        color: 'bg-blue-200',
     },
     'easys-cube': {
         title: "Easy's cube",
@@ -103,6 +80,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         stack: ['HTML', 'CSS', 'Javascript', 'vscode'],
         link: 'https://bigstones.fr/cube',
         repository: 'https://github.com/LeMoineau/Easy-Cube',
+        color: 'bg-amber-200',
     },
     'extensions-chrome': {
         title: 'Extensions Chrome - Milireader2pdf & Youtube2music',
@@ -112,6 +90,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2021, 3),
         stack: ['Javascript', 'Extensions Chrome/Mozilla'],
         repository: 'https://github.com/LeMoineau/milireader2pdf-Extension',
+        color: 'bg-gray-200',
     },
     kora: {
         title: 'Kora',
@@ -122,6 +101,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         stack: ['Electron.js', 'Javascript', 'HTML', 'vscode'],
         link: 'https://bigstones.fr/kora/',
         repository: 'https://github.com/LeMoineau/kora',
+        color: 'bg-slate-200',
     },
     mango: {
         title: 'Mango',
@@ -131,6 +111,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2021, 7),
         stack: ['Ionic', 'AngularJS', 'SCSS', 'Typescript', 'vscode', 'github'],
         repository: 'https://github.com/LeMoineau/mango',
+        color: 'bg-slate-200',
     },
     maya: {
         title: 'Maya',
@@ -140,6 +121,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2021, 6),
         stack: ['Electron.js', 'Javascript', 'vscode', 'github'],
         repository: 'https://github.com/LeMoineau/maya-electron',
+        color: 'bg-yellow-200',
     },
     mcplugins: {
         title: 'Plugins Minecraft',
@@ -148,6 +130,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         tags: ['Game Plugins', 'Minecraft'],
         date: new Date(2018, 11),
         stack: ['Java', 'Spigot Bukkit', 'Minecraft 1.8', 'Eclipse'],
+        color: 'bg-green-200',
     },
     'pizza-horizon7': {
         title: 'Pizza Horizon7',
@@ -166,6 +149,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         ],
         link: 'https://bigstones.fr/pizza',
         repository: 'https://github.com/LeMoineau/pizza-horizon7',
+        color: 'bg-purple-200',
     },
     'rummikub-java': {
         title: 'Rummikub (Java edition)',
@@ -175,6 +159,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2019, 8),
         stack: ['Java', 'Java Swing', 'Eclipse'],
         repository: 'https://github.com/LeMoineau/rummikub-java',
+        color: 'bg-red-200',
     },
     'rummikub-nodejs': {
         title: 'Rummikub (NodeJS edition)',
@@ -192,6 +177,7 @@ export const projectsData: { [key: string]: ProjectData } = {
             'vscode',
         ],
         repository: 'https://github.com/LeMoineau/rummikub',
+        color: 'bg-orange-200',
     },
     'tirage-aleatoire': {
         title: 'Random drawing',
@@ -202,6 +188,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         stack: ['HTML', 'CSS', 'Javascript', 'JQuery', 'vscode'],
         link: 'https://bigstones.fr/tiragealeatoire',
         repository: 'https://github.com/LeMoineau/tirage-aleatoire',
+        color: 'bg-green-200',
     },
     'tv-replay': {
         title: 'TV Replay',
@@ -211,6 +198,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2022, 0),
         stack: ['Python', 'Flask', 'Selenium', 'HTML/CSS/Javascript'],
         repository: 'https://github.com/LeMoineau/tv-replay',
+        color: 'bg-slate-200',
     },
     ufood: {
         title: 'UFood',
@@ -220,5 +208,6 @@ export const projectsData: { [key: string]: ProjectData } = {
         date: new Date(2022, 0),
         stack: ['Python', 'Flask', 'Selenium', 'HTML/CSS/Javascript'],
         repository: 'https://github.com/LeMoineau/UFood',
+        color: 'bg-red-200',
     },
 }

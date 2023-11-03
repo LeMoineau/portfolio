@@ -9,9 +9,9 @@ import SubSubTitle from '../text/SubSubTitle'
 import StackTag from '../text/StackTag'
 import CustomLink from '../text/CustomLink'
 import AvatarTag from '../text/AvatarTag'
-import { ProjectData } from '@/common/resources/projects-data'
 import ProjectTag from '../text/ProjectTag'
 import Divider from '../text/Divider'
+import { ProjectData } from '@/common/interfaces/project-data'
 
 export default function ProjectSection({
     projectData,
