@@ -15,8 +15,9 @@ export default function GlobalBackground() {
                     ></Avatar>
                 </div>
                 <div
-                    className={`${interMedium.className} pl-0 md:pl-8 text-xl md:text-4xl text-center md:text-start`}
+                    className={`${interMedium.className} drop-shadow transform p-4 ml-0 mt-2 md:mt-0 md:ml-8 text-xl md:text-4xl text-center md:text-start bg-white rounded-lg`}
                 >
+                    <span className="absolute top-0 left-1/2 md:top-8 md:left-0 transform translate-x-[-50%] translate-y-[-100%] md:translate-x-[-100%] md:translate-y-[-50%] bg-white border-[10px] border-b-[15px] md:border-b-[10px] border-b-white md:border-b-transparent md:border-r-[15px] md:border-l-0 md:border-r-white bg-transparent border-transparent"></span>
                     <p>
                         Hey! My name is{' '}
                         <span className="text-sky-500">Pierre</span>.
