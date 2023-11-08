@@ -42,11 +42,11 @@ export default function ProjectSection({
                     </span>
                 </Title>
                 <Divider className="my-5"></Divider>
-                <p className="my-2 text-sm text-gray-700">{projectData.desc}</p>
                 <CustomIcon
                     src={projectData.img}
-                    className="pt-[75%] rounded drop-shadow"
+                    className="pt-[75%] my-5 rounded drop-shadow"
                 ></CustomIcon>
+                <p>{projectData.desc}</p>
             </Section>
             <div className="md:w-1/2 h-full md:ml-5">
                 <Section>
@@ -93,10 +93,10 @@ export default function ProjectSection({
                                 <SubSection className="mt-5">
                                     <SubSubTitle>Link</SubSubTitle>
                                     <CustomLink
-                                        href={'https://bigstones.fr/myMajor'}
+                                        href={projectData.link}
                                         decoration
                                     >
-                                        bigstones.fr/myMajor
+                                        Visit the project
                                     </CustomLink>
                                 </SubSection>
                             )}
@@ -104,12 +104,10 @@ export default function ProjectSection({
                                 <SubSection className="mt-5">
                                     <SubSubTitle>Repository</SubSubTitle>
                                     <CustomLink
-                                        href={
-                                            'https://github.com/Lemoineau/myMajor'
-                                        }
+                                        href={projectData.repository}
                                         decoration
                                     >
-                                        github.com/Lemoineau
+                                        github.com/LeMoineau
                                     </CustomLink>
                                 </SubSection>
                             )}

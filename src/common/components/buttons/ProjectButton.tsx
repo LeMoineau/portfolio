@@ -5,12 +5,14 @@ import { ProjectData } from '@/common/interfaces/project-data'
 
 export default function ProjectButton({
     projectData,
+    href,
 }: {
     projectData: ProjectData
+    href: string
 }) {
     return (
         <Link
-            href={projectData.link ?? '/'}
+            href={href}
             className="bg-white drop-shadow rounded h-fit overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
         >
             <div className="w-full h-fit p-4 ">

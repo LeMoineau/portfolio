@@ -9,6 +9,7 @@ import Avatar from '../img/Avatar'
 import AvailableForWork from '../text/AvailableForWork'
 import CopyButton from '../buttons/CopyButton'
 import Title from '../text/Title'
+import CustomLink from '../text/CustomLink'
 
 export default function Footer() {
     return (
@@ -23,7 +24,9 @@ export default function Footer() {
             <div className="flex flex-row justify-center my-6">
                 <Avatar className="w-14 h-14" available></Avatar>
                 <div className="ml-4">
-                    <p className="font-medium">Pierre Faber.</p>
+                    <CustomLink href="/about">
+                        <p className="font-medium">Pierre Faber.</p>
+                    </CustomLink>
                     <AvailableForWork></AvailableForWork>
                 </div>
             </div>
@@ -76,7 +79,7 @@ export default function Footer() {
                 classNameChildren="w-full flex flex-col items-center"
             >
                 <p>
-                    2023 ©{' '}
+                    2023-2024 ©{' '}
                     <Link href={'/'} className="font-medium">
                         Pierre Faber
                     </Link>
@@ -98,14 +101,6 @@ export default function Footer() {
                         className="text-orange-600 font-medium underline"
                     >
                         Tailwindcss
-                    </Link>{' '}
-                    & hosted on{' '}
-                    <Link
-                        target="_blank"
-                        href={'https://vercel.com/docs/'}
-                        className="text-orange-600 font-medium underline"
-                    >
-                        Vercel
                     </Link>
                 </p>
             </SubSection>

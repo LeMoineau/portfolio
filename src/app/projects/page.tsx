@@ -33,6 +33,7 @@ export default function defaultProject() {
                         return (
                             <ProjectButton
                                 projectData={project}
+                                href={`/projects/${key}`}
                                 key={i}
                             ></ProjectButton>
                         )

@@ -15,10 +15,10 @@ export default function StandardButton({
 }) {
     return (
         <button
-            className={`${className} w-auto flex flex-row items-center space-x-0.5 drop-shadow border border-gray-50 px-3 py-2 rounded text-sm font-medium ${
+            className={`${className} w-auto flex flex-row items-center space-x-0.5 drop-shadow border px-3 py-2 rounded text-sm font-medium ${
                 reverseColor
                     ? 'bg-gray-700 text-white border-gray-400'
-                    : 'bg-white'
+                    : 'bg-white border-gray-50'
             }`}
         >
             {prependChild}

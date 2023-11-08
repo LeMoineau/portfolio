@@ -6,16 +6,18 @@ export default function CustomLink({
     href,
     noblank,
     decoration,
+    className,
 }: {
     children: React.ReactNode
     href: string
     noblank?: boolean
     decoration?: boolean
+    className?: string
 }) {
     return (
         <Link
             href={href}
-            className={decoration ? 'text-blue-700' : ''}
+            className={`${decoration ? 'text-blue-700' : ''} ${className}`}
             target={noblank ? undefined : '_blank'}
         >
             {children}
