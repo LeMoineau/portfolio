@@ -8,6 +8,7 @@ import AboutPage from './app/about/about'
 import ProjectPage from './app/projects/project'
 import Home from './app'
 import NotFound from './app/not-found'
+import './common/config/i18n'
 
 const router = createBrowserRouter([
     {
