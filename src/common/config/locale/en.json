@@ -16,5 +16,9 @@
         "link1": "Contact me",
         "subtitle2": "! Or see my",
         "link2": "previous projects"
+    },
+    "projects-subSection": {
+        "title": "My projects",
+        "viewMore-btn": "View more"
     }
 }

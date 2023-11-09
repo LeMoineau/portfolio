@@ -4,6 +4,7 @@ import React from 'react'
 import CustomIcon from '../img/CustomIcon'
 import RightArrow from '../img/RightArrow'
 import CustomLink from '../text/CustomLink'
+import { useTranslation } from 'react-i18next'
 
 const projects: React.ReactNode[] = []
 for (let i = 0; i < 10; i++) {
@@ -24,13 +25,14 @@ for (let i = 0; i < 10; i++) {
 }
 
 export default function MyProjectsSubSection() {
+    const { t } = useTranslation()
     return (
         <SubSection
-            title="My Projects"
+            title={t('projects-subSection.title')}
             actions={
                 <CustomLink href={'/projects'} noblank>
-                    <StandardButton appendChild={<RightArrow></RightArrow>}>
-                        View more
+                    <StandardButton appendChild={<RightArrow />}>
+                        {t('projects-subSection.viewMore-btn')}
                     </StandardButton>
                 </CustomLink>
             }
