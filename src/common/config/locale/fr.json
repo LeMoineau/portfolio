@@ -3,5 +3,18 @@
         "projects": "projets.",
         "about": "à propos.",
         "contact": "contactez moi!"
+    },
+    "global-bg": {
+        "text1": "Hey! Je m'appelle",
+        "text2": "Je",
+        "color1": "designe",
+        "text3": "et",
+        "color2": "développe",
+        "text4": "des sites comme",
+        "color3": "freelancer ",
+        "subtitle1": "Des projets intéressants ?",
+        "link1": "Contactez-moi",
+        "subtitle2": " ou regardez mes",
+        "link2": "précédents projets "
     }
 }
