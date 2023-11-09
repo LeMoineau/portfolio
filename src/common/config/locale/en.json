@@ -1,3 +1,7 @@
 {
-    "title": "hello"
+    "header": {
+        "projects": "projects.",
+        "about": "about.",
+        "contact": "contact me!"
+    }
 }

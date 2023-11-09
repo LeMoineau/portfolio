@@ -7,7 +7,7 @@ import CustomIcon from '../img/CustomIcon'
 
 export default function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false)
-    const { i18n } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     function getOppositeLanguage() {
         return i18n.language === 'fr' ? 'en' : 'fr'
@@ -37,18 +37,17 @@ export default function Header() {
                 <ul className="flex flex-col md:flex-row space-y-1 md:space-y-0 md:space-x-4">
                     <li>
                         <CustomLink noblank href={'/projects'}>
-                            projects.
+                            {t('header.projects')}
                         </CustomLink>
                     </li>
                     <li>
                         <CustomLink noblank href={'/about'}>
-                            about.
+                            {t('header.about')}
                         </CustomLink>
                     </li>
                     <li className="text-orange-500 font-medium">
                         <CustomLink noblank href={'/contact'}>
-                            {' '}
-                            contact me!{' '}
+                            {t('header.contact')}
                         </CustomLink>
                     </li>
                     <li
