@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import CustomIcon from '../img/CustomIcon'
+import CustomLink from '../text/CustomLink'
 import ProjectTag from '../text/ProjectTag'
-import { ProjectData } from '@/common/interfaces/project-data'
+import { ProjectData } from '@/common/resources/interfaces/project-data'
 
 export default function ProjectButton({
     projectData,
@@ -11,7 +11,8 @@ export default function ProjectButton({
     href: string
 }) {
     return (
-        <Link
+        <CustomLink
+            noblank
             href={href}
             className="bg-white drop-shadow rounded h-fit overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
         >
@@ -23,7 +24,7 @@ export default function ProjectButton({
                 >
                     <CustomIcon
                         src={projectData.img}
-                        className="pt-[75%] rounded-sm drop-shadow-md"
+                        className="rounded-sm drop-shadow-md"
                     ></CustomIcon>
                 </div>
             </div>
@@ -43,6 +44,6 @@ export default function ProjectButton({
                     ))}
                 </div>
             </div>
-        </Link>
+        </CustomLink>
     )
 }

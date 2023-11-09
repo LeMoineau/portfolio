@@ -1,6 +1,3 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props'
-import Image from 'next/image'
-
 export default function CustomIcon({
     src,
     alt,
@@ -9,7 +6,7 @@ export default function CustomIcon({
     classNameImage,
     objectFitContain,
 }: {
-    src: string | StaticImport
+    src: string
     alt?: string
     circle?: boolean
     className?: string
@@ -22,13 +19,11 @@ export default function CustomIcon({
                 circle ? 'rounded-full' : ''
             }`}
         >
-            <Image
+            <img
                 src={src}
                 alt={alt ?? ''}
                 style={{ objectFit: objectFitContain ? 'contain' : 'cover' }}
-                fill
-                sizes="100%"
-                className={classNameImage}
+                className={`${classNameImage} w-full h-full`}
             />
         </div>
     )

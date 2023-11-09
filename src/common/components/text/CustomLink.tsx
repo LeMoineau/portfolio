@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function CustomLink({
     children,
@@ -16,7 +16,7 @@ export default function CustomLink({
 }) {
     return (
         <Link
-            href={href}
+            to={href}
             className={`${decoration ? 'text-blue-700' : ''} ${className}`}
             target={noblank ? undefined : '_blank'}
         >
