@@ -20,5 +20,20 @@
     "projects-subSection": {
         "title": "Mes projets",
         "viewMore-btn": "Voir plus"
+    },
+    "footer": {
+        "title1": "",
+        "title2": "Travaillons",
+        "title3": "ensemble ",
+        "subtitle": "Créons des sites et des applications qui remplissent vos besoins",
+        "followMe": "Me suivre",
+        "copyright1": "Site construit avec",
+        "copyright2": "et"
+    },
+    "common": {
+        "available-for-work": "DISPONIBLE",
+        "contact-btn": "Me contacter",
+        "downloadCV-btn": "Télécharger mon CV",
+        "copyEmail-btn": "Copier Mail"
     }
 }

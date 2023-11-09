@@ -20,5 +20,20 @@
     "projects-subSection": {
         "title": "My projects",
         "viewMore-btn": "View more"
+    },
+    "footer": {
+        "title1": "Let's ",
+        "title2": "work",
+        "title3": "together",
+        "subtitle": "Creating websites and application to fit your business",
+        "followMe": "Follow me!",
+        "copyright1": "Made with",
+        "copyright2": "and"
+    },
+    "common": {
+        "available-for-work": "AVAILABLE FOR WORK",
+        "contact-btn": "Contact me!",
+        "downloadCV-btn": "Download CV",
+        "copyEmail-btn": "Copy Email"
     }
 }
