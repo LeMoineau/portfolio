@@ -65,12 +65,13 @@
             "text6": "! I am also a music lover and after playing the",
             "color5": "Piano 🎹",
             "text7": "for 7 years, today I continue to learn the pieces that I love!"
-        }
+        },
+        "find-more-infos-in-cv": "Find more informations in my Resume!"
     },
     "common": {
         "available-for-work": "AVAILABLE FOR WORK",
         "contact-btn": "Contact me!",
-        "downloadCV-btn": "Download CV",
+        "downloadCV-btn": "Download Resume",
         "copyEmail-btn": "Copy Email",
         "url-cv": "/assets/Pierre FABER - Resume.pdf"
     }
