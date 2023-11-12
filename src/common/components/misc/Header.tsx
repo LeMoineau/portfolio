@@ -54,7 +54,7 @@ export default function Header() {
                         onClick={() =>
                             i18n.changeLanguage(getOppositeLanguage())
                         }
-                        className="flex flex-col justify-center"
+                        className="cursor-pointer flex flex-col justify-center"
                     >
                         <CustomIcon
                             src={`/img/languages/${getOppositeLanguage()}.png`}
