@@ -20,13 +20,14 @@ export default function AboutMonParcours() {
                 septembre 2020 à aout 2023. Au cours de ma formation au sein de
                 cette école, j'ai eu l'opportunité de partir 1 semestre au
                 Canada à l'Université Laval, l'une des plus grande université du
-                Québec, pour affiner mes connaissance
+                Québec, pour affiner mes connaissance en développement web et en
+                gesion de projet.
             </p>
             <p className="mt-4 indent-8">
-                Ma formation toujours centrée autour de l'informatique, m'a
-                permi d'acquérir de solides compétences en développement web,
+                Ma formation, toujours centrée autour de l'informatique, m'a
+                permise d'acquérir de solides compétences en développement web,
                 logiciel et mobile ainsi qu'en gestion de projet que je serai
-                fier de pouvoir m'être au service de votre entreprise !
+                fier de m'être au service de votre entreprise !
             </p>
         </>
     )

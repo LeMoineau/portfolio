@@ -15,8 +15,8 @@ export default function AboutPage() {
             <Section className="px-10 mt-5 md:mt-0">
                 <AboutIntro></AboutIntro>
                 <AboutITPassion></AboutITPassion>
-                <AboutMonParcours></AboutMonParcours>
                 <AboutHobbies></AboutHobbies>
+                <AboutMonParcours></AboutMonParcours>
                 <div className="w-full flex flex-col justify-center items-center space-y-3 mt-8">
                     <SubTitle>{t('about.find-more-infos-in-cv')}</SubTitle>
                     <DownloadCVButton></DownloadCVButton>
