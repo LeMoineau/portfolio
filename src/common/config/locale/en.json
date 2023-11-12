@@ -40,6 +40,16 @@
         "title2": "! The project you find not exist ",
         "title3": "yet"
     },
+    "about": {
+        "card": {
+            "title": "Full-Stack, Web Front-end & Mobile Developer",
+            "subtitle": "\"Ready to join your team right now! 🚀\"",
+            "key1": "Location",
+            "value1": "On Remote",
+            "key2": "Availability",
+            "value2": "Now"
+        }
+    },
     "common": {
         "available-for-work": "AVAILABLE FOR WORK",
         "contact-btn": "Contact me!",

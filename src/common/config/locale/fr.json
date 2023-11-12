@@ -40,11 +40,21 @@
         "title2": "! Ce projet n'existe pas ",
         "title3": "encore "
     },
+    "about": {
+        "card": {
+            "title": "Développeur Full-Stack, Web Front-end et Mobile",
+            "subtitle": "\"Prêt à rejoindre votre équipe dès maintenant ! 🚀\"",
+            "key1": "Localisation",
+            "value1": "En télétravail",
+            "key2": "Disponibilité",
+            "value2": "Maintenant"
+        }
+    },
     "common": {
         "available-for-work": "DISPONIBLE",
         "contact-btn": "Me contacter",
         "downloadCV-btn": "Télécharger mon CV",
-        "copyEmail-btn": "Copier Mail",
+        "copyEmail-btn": "Copier Email",
         "url-cv": "/assets/CV - Pierre FABER.pdf"
     }
 }

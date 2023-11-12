@@ -14,7 +14,6 @@ export default function AboutPage() {
     return (
         <div className="flex flex-col-reverse md:flex-row py-8">
             <Section className="px-10 mt-5 md:mt-0">
-                {t('title')}
                 <AboutIntro></AboutIntro>
                 <AboutITPassion></AboutITPassion>
                 <AboutMonParcours></AboutMonParcours>
