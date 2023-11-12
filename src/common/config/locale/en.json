@@ -48,6 +48,23 @@
             "value1": "On Remote",
             "key2": "Availability",
             "value2": "Now"
+        },
+        "hobbies": {
+            "title1": "My",
+            "title2": "Hobbies",
+            "text1": "Since I was 7 years old, I have been proud to be a",
+            "color1": "Scout of France 🌳",
+            "text2": "and to have been able to live many wonderful human and ecological experiences throughout France with my lifelong companions. I also had the chance to set up a",
+            "color2": "humanitarian project 🤲",
+            "text3": "in Croatia to help the",
+            "link1": "Kuterevo Volunters",
+            "text4": "association and their bear shelter! Otherwise, I'm a",
+            "color3": "Skater 🛹",
+            "text5": "in my spare time and I really like playing sports with friends, especially",
+            "color4": "Basketball 🏀",
+            "text6": "! I am also a music lover and after playing the",
+            "color5": "Piano 🎹",
+            "text7": "for 7 years, today I continue to learn the pieces that I love!"
         }
     },
     "common": {

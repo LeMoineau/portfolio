@@ -48,6 +48,23 @@
             "value1": "En télétravail",
             "key2": "Disponibilité",
             "value2": "Maintenant"
+        },
+        "hobbies": {
+            "title1": "Mes",
+            "title2": "Centre d'intêrets",
+            "text1": "Depuis mes 7 ans, je suis fier d'être",
+            "color1": "Scout de France 🌳",
+            "text2": "et d'avoir pu vivre de nombreuse et merveilleuses expériences humaines et écologiques à travers toute la France avec mes compagnons de toujours. J'ai également eut la chance de pouvoir monter un",
+            "color2": "projet humanitaire 🤲",
+            "text3": "en Croatie pour aider l'association",
+            "link1": "Kuterevo Volunters",
+            "text4": "et leur refuge d'ours ! Autrement, je suis",
+            "color3": "Skateur 🛹",
+            "text5": "à mes heures perdues et j'aime beaucoup faire du sport entre amis et notamment du",
+            "color4": "Basket 🏀 ",
+            "text6": "! Je suis aussi amateur de musique et après avoir fait du",
+            "color5": "Piano 🎹",
+            "text7": "pendant 7 ans, je continue aujourd'hui à apprendre les morceaux que j'aime !"
         }
     },
     "common": {

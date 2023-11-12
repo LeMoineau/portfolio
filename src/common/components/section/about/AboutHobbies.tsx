@@ -1,35 +1,46 @@
+import { useTranslation } from 'react-i18next'
 import CustomLink from '../../text/CustomLink'
 import Divider from '../../text/Divider'
 import Title from '../../text/Title'
 
 export default function AboutHobbies() {
+    const { t } = useTranslation()
     return (
         <>
             <Title className="mt-12 mb-3">
-                My <span className="text-blue-400">Hobbies</span>.
+                {t('about.hobbies.title1')}{' '}
+                <span className="text-blue-400">
+                    {t('about.hobbies.title2')}
+                </span>
+                .
             </Title>
             <Divider className="my-5"></Divider>
             <p className="indent-8">
-                Depuis mes 7 ans, je suis fier d'être{' '}
+                {t('about.hobbies.text1')}{' '}
                 <span className="text-green-500 font-medium">
-                    Scout de France 🌳
+                    {t('about.hobbies.color1')}
                 </span>{' '}
-                et d'avoir pu vivre de nombreuse et merveilleuses expériences
-                humaines et écologiques à travers toute la France avec mes
-                compagnons de toujours. J'ai également eut la chance de pouvoir
-                monter un projet humanitaire en Croatie pour aider l'association{' '}
+                {t('about.hobbies.text2')}{' '}
+                <span className="font-medium text-amber-500">
+                    {t('about.hobbies.color2')}
+                </span>{' '}
+                {t('about.hobbies.text3')}{' '}
                 <CustomLink href="https://kuterevo.org/" decoration>
-                    Kuterevo Volunters
+                    {t('about.hobbies.link1')}
                 </CustomLink>{' '}
-                et leur refuge d'ours ! Autrement, je suis{' '}
-                <span className="text-blue-500 font-medium">Skateur 🛹</span> à
-                mes heures perdues et j'aime beaucoup faire du sport entre amis
-                et notamment du{' '}
-                <span className="text-orange-500 font-medium">Basket</span> 🏀 !
-                Je suis aussi amateur de musique et après avoir fait du{' '}
-                <span className="text-gray-700 font-medium">Piano 🎹</span>{' '}
-                pendant 7 ans, je continue aujourd'hui à apprendre les morceaux
-                que j'aime !
+                {t('about.hobbies.text4')}{' '}
+                <span className="text-blue-500 font-medium">
+                    {t('about.hobbies.color3')}
+                </span>{' '}
+                {t('about.hobbies.text5')}{' '}
+                <span className="text-orange-500 font-medium">
+                    {t('about.hobbies.color4')}
+                </span>
+                {t('about.hobbies.text6')}{' '}
+                <span className="text-gray-700 font-medium">
+                    {t('about.hobbies.color5')}
+                </span>{' '}
+                {t('about.hobbies.text7')}
             </p>
         </>
     )
