@@ -46,8 +46,8 @@ export default function AboutCard() {
                 ></PillListItem>
             </CustomList>
             <div className="w-full items-center justify-center flex flex-row flex-wrap mt-4">
-                <ContactMeButton></ContactMeButton>
-                <DownloadCVButton></DownloadCVButton>
+                <ContactMeButton className="m-2"></ContactMeButton>
+                <DownloadCVButton className="mx-2"></DownloadCVButton>
             </div>
         </>
     )
