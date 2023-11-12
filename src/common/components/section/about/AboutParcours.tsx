@@ -1,33 +1,73 @@
+import { useTranslation } from 'react-i18next'
+import CustomLink from '../../text/CustomLink'
 import Divider from '../../text/Divider'
 import Title from '../../text/Title'
 
 export default function AboutMonParcours() {
+    const { t } = useTranslation()
     return (
         <>
             <Title className="mt-12 mb-3">
-                <span className="text-purple-400">Mon</span> Parcours.
+                {t('about.parcours.title1')}{' '}
+                <span className="text-purple-400">
+                    {t('about.parcours.title2')}
+                </span>{' '}
+                {t('about.parcours.title3')}.
             </Title>
             <Divider className="my-5"></Divider>
             <p className="indent-8">
-                Après un BAC Scientifique option Mathématiques, je suis parti
-                étudié dans la banlieuse parisienne à l'EFREI Paris. Cette école
-                d'ingénieur informatique propose une classe préparatoire
-                intégrée que j'ai eu la chance de suivre pendant 2 ans, de
-                septembre 2018 à aout 2020. J'ai ensuite continué ma formation
-                dans une autre école d'ingénieur très réputée : l'Institut
-                National des Sciences Appliquées (ou INSA) de Rouen en intégrant
-                son département Informatique et Technologie de l'Information de
-                septembre 2020 à aout 2023. Au cours de ma formation au sein de
-                cette école, j'ai eu l'opportunité de partir 1 semestre au
-                Canada à l'Université Laval, l'une des plus grande université du
-                Québec, pour affiner mes connaissance en développement web et en
-                gesion de projet.
+                {t('about.parcours.text1')}{' '}
+                <span className="font-medium text-green-500">
+                    {t('about.parcours.color1')}
+                </span>
+                {t('about.parcours.text2')}
+                <CustomLink href="https://www.efrei.fr/" decoration>
+                    {t('about.parcours.link1')}
+                </CustomLink>
+                {t('about.parcours.text3')}{' '}
+                <span className="font-medium text-pink-500">
+                    {t('about.parcours.color2')}
+                </span>{' '}
+                {t('about.parcours.text4')}
+                <CustomLink href="https://www.insa-rouen.fr/" decoration>
+                    {t('about.parcours.link2')}
+                </CustomLink>{' '}
+                {t('about.parcours.text5')}{' '}
+                <span className="font-medium text-yellow-500">
+                    {t('about.parcours.color3')}
+                </span>{' '}
+                {t('about.parcours.text6')}
+                <CustomLink href="https://www.ulaval.ca/" decoration>
+                    {t('about.parcours.link3')}
+                </CustomLink>
+                {t('about.parcours.text7')}{' '}
+                <span className="font-medium text-orange-500">
+                    {t('about.parcours.color4')}
+                </span>{' '}
+                {t('about.parcours.text8')}{' '}
+                <span className="font-medium text-blue-500">
+                    {t('about.parcours.color5')}
+                </span>
+                .
             </p>
             <p className="mt-4 indent-8">
-                Ma formation, toujours centrée autour de l'informatique, m'a
-                permise d'acquérir de solides compétences en développement web,
-                logiciel et mobile ainsi qu'en gestion de projet que je serai
-                fier de m'être au service de votre entreprise !
+                {t('about.parcours.text9')}{' '}
+                <span className="font-medium text-orange-500">
+                    {t('about.parcours.color6')}
+                </span>
+                ,{' '}
+                <span className="font-medium text-purple-500">
+                    {t('about.parcours.color7')}
+                </span>{' '}
+                {t('about.parcours.text10')}{' '}
+                <span className="font-medium text-green-500">
+                    {t('about.parcours.color8')}
+                </span>{' '}
+                {t('about.parcours.text11')}{' '}
+                <span className="font-medium text-blue-500">
+                    {t('about.parcours.color9')}
+                </span>{' '}
+                {t('about.parcours.text12')}
             </p>
         </>
     )

@@ -19,8 +19,8 @@ export default function AboutITPassion() {
                 , j'ai continué mon expérience de la programmation en
                 développant des plugins en Java améliorant et modifiant les
                 règles du jeu mondialement connu{' '}
-                <span className="text-green-500 font-medium">Minecraft ⛏</span>
-                . Certains sont d'ailleurs retrouvable dans l'onglet{' '}
+                <span className="text-green-500 font-medium">Minecraft ⛏</span>.
+                Certains sont d'ailleurs retrouvable dans l'onglet{' '}
                 <CustomLink href="/projects/mcplugins" decoration>
                     Projets
                 </CustomLink>{' '}
@@ -78,8 +78,19 @@ export default function AboutITPassion() {
                 <span className="text-purple-500 font-medium">
                     Data Analyse 📈
                 </span>
-                ) et logiciel à travers les langages tel que Python, Java et
-                Java JEE.
+                ) et logiciel à travers les langages tel que{' '}
+                <CustomLink href="https://docs.python.org/3/" decoration>
+                    Python
+                </CustomLink>
+                ,{' '}
+                <CustomLink href="https://dev.java/" decoration>
+                    Java
+                </CustomLink>{' '}
+                et{' '}
+                <CustomLink href="https://www.wildfly.org/" decoration>
+                    Java JEE (Wildfly)
+                </CustomLink>
+                .
             </p>
             <p className="mt-4 indent-8">
                 Aujourd'hui, je suis heureux de continuer d'apprendre et de

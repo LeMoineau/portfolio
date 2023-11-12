@@ -37,7 +37,7 @@
     },
     "project-not-found": {
         "title1": "Crap",
-        "title2": "! The project you find not exist ",
+        "title2": "! The project you are looking for does not exist ",
         "title3": "yet"
     },
     "about": {
@@ -65,6 +65,35 @@
             "text6": "! I am also a music lover and after playing the",
             "color5": "Piano 🎹",
             "text7": "for 7 years, today I continue to learn the pieces that I love!"
+        },
+        "parcours": {
+            "title1": "My",
+            "title2": "School",
+            "title3": "Cursus",
+            "text1": "After a",
+            "color1": "Scientific BAC with a Mathematics option 📃",
+            "text2": ", I went to study in the Parisian suburbs at ",
+            "link1": "EFREI Paris",
+            "text3": ". This",
+            "color2": "computer engineering school 👨‍🎓 ",
+            "text4": "offers an integrated preparatory class that I had the chance to follow for 2 years, from September 2018 to August 2020. I then continued my training in another very renowned engineering school : the ",
+            "link2": "National Institute of Applied Sciences",
+            "text5": "(or INSA) of Rouen by integrating its",
+            "color3": "Computer Science and Information Technology department 🖥",
+            "text6": "from September 2020 to August 2023. During my training within this school, I had the opportunity to spend 1 semester in Canada at ",
+            "link3": "Laval University",
+            "text7": ", one of the largest universities in Quebec, to refine my knowledge in",
+            "color4": "Web development 💻",
+            "text8": "and ",
+            "color5": "project management 👨‍🏫",
+            "text9": "My academic cursus, always centered around IT, allowed me to acquire solid skills in",
+            "color6": "Web development 💻",
+            "color7": "software ⌨",
+            "text10": "and",
+            "color8": "mobile 📱",
+            "text11": "as well as in",
+            "color9": "project management 👨‍🏫",
+            "text12": "which I will be proud to employ for your project!"
         },
         "find-more-infos-in-cv": "Find more informations in my Resume!"
     },

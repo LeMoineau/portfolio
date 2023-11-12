@@ -11,8 +11,8 @@ import { useTranslation } from 'react-i18next'
 export default function AboutPage() {
     const { t } = useTranslation()
     return (
-        <div className="flex flex-col-reverse md:flex-row py-8">
-            <Section className="px-10 mt-5 md:mt-0">
+        <div className="flex flex-col-reverse lg:flex-row py-8">
+            <Section className="px-10 mt-5 lg:mt-0">
                 <AboutIntro></AboutIntro>
                 <AboutITPassion></AboutITPassion>
                 <AboutHobbies></AboutHobbies>
@@ -22,7 +22,7 @@ export default function AboutPage() {
                     <DownloadCVButton></DownloadCVButton>
                 </div>
             </Section>
-            <div className="md:w-1/2 h-full md:ml-5">
+            <div className="lg:w-1/2 h-full lg:ml-5">
                 <Section>
                     <AboutCard></AboutCard>
                 </Section>
