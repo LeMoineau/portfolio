@@ -4,7 +4,7 @@ import CopyButton from './CopyButton'
 export default function CopyEmailButton({ className }: { className?: string }) {
     const { t } = useTranslation()
     return (
-        <CopyButton textToCopy="faberpierre78@gmail.com">
+        <CopyButton textToCopy="faberpierre78@gmail.com" className={className}>
             {t('common.copyEmail-btn')}
         </CopyButton>
     )
