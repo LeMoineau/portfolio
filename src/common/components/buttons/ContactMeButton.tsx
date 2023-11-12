@@ -1,9 +1,11 @@
 import { useTranslation } from 'react-i18next'
 import StandardButton from './StandardButton'
 
-export default function ContactMeButton() {
+export default function ContactMeButton({ className }: { className?: string }) {
     const { t } = useTranslation()
     return (
-        <StandardButton reverseColor>{t('common.contact-btn')}</StandardButton>
+        <StandardButton reverseColor className={className}>
+            {t('common.contact-btn')}
+        </StandardButton>
     )
 }
