@@ -30,10 +30,21 @@
         "copyright1": "Made with",
         "copyright2": "and"
     },
+    "projects-page": {
+        "title1": "My",
+        "title2": "Projects",
+        "desc": "Here are all my previous projects. Discover in this portfolio plenty of varied projects from showcase websites to complete mobile app."
+    },
+    "project-not-found": {
+        "title1": "Crap",
+        "title2": "! The project you find not exist ",
+        "title3": "yet"
+    },
     "common": {
         "available-for-work": "AVAILABLE FOR WORK",
         "contact-btn": "Contact me!",
         "downloadCV-btn": "Download CV",
-        "copyEmail-btn": "Copy Email"
+        "copyEmail-btn": "Copy Email",
+        "url-cv": "/assets/Pierre FABER - Resume.pdf"
     }
 }

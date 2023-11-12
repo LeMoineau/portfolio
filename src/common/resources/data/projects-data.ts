@@ -3,7 +3,10 @@ import { ProjectData } from '../interfaces/project-data'
 export const projectsData: { [key: string]: ProjectData } = {
     ahoy: {
         title: 'Ahoy!',
-        desc: 'Decentralized messaging mobile application with Flutter and Gun.js',
+        desc: {
+            en: 'Decentralized messaging mobile application with Flutter and Gun.js',
+            fr: 'Application mobile de message décentralisée avec Flutter et Gun.js',
+        },
         img: '/img/projects/ahoy.png',
         tags: ['Messaging', 'Decentralized', 'Mobile App'],
         date: new Date(2022, 0),
@@ -21,7 +24,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     mymajor: {
         title: 'myMajor',
-        desc: 'Website to help you choose a specialization at the EFREI school',
+        desc: {
+            en: 'Website to help you choose a specialization at the EFREI school',
+            fr: "Site d'aide pour l'orientation vers les filières à l'école EFREI Paris",
+        },
         img: '/img/projects/mymajor.png',
         tags: ['Design', 'Academic Project'],
         date: new Date(2020, 4),
@@ -32,7 +38,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     blogame: {
         title: 'BloGame',
-        desc: 'Blog host as a video game',
+        desc: {
+            en: 'Blog host as a video game',
+            fr: 'Hébergeur de blog sous forme de jeu vidéo',
+        },
         img: '/img/projects/blogame.png',
         tags: ['Game', 'Blog host', 'Academic Project'],
         date: new Date(2022, 0),
@@ -52,7 +61,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     bubbles: {
         title: 'Bubbles',
-        desc: 'Professional Social Network where link are represented by bubbles',
+        desc: {
+            en: 'Professional Social Network with bubbles aesthetic',
+            fr: 'Réseau social professional sur le thème des bulles',
+        },
         img: '/img/projects/bubbles.png',
         tags: ['Social Network', 'Academic Project'],
         date: new Date(2019, 9),
@@ -73,7 +85,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'easys-cube': {
         title: "Easy's cube",
-        desc: "Humorous site about a 1x1 rubik's cube",
+        desc: {
+            en: "Humorous site about a 1x1 rubik's cube",
+            fr: "Site humouristique sur un Rubis's cube 1x1",
+        },
         img: '/img/projects/easyscube.png',
         tags: ['Design', 'Humouristic', 'Academic Project'],
         date: new Date(2020, 4),
@@ -84,7 +99,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'extensions-chrome': {
         title: 'Extensions Chrome - Milireader2pdf & Youtube2music',
-        desc: 'Extensions for Google Chrome to download music from youtube and newspaper from milibrisreader',
+        desc: {
+            en: 'Extensions for Google Chrome to download music from Youtube and newspaper from milibrisreader',
+            fr: 'Extensions pour Google Chrome pour télécharger des musiques depuis Youtube ou des journaux depuis Milibrisreader ',
+        },
         img: '/img/projects/extensions-chrome.png',
         tags: ['Extensions Chrome'],
         date: new Date(2021, 3),
@@ -94,7 +112,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     kora: {
         title: 'Kora',
-        desc: 'Support desktop tool that provides basic tutorials',
+        desc: {
+            en: 'Support desktop tool that provides basic tutorials',
+            fr: 'Outil bureau proposant des tutoriels basiques',
+        },
         img: '/img/projects/kora.png',
         tags: ['Support tool', 'Desktop App'],
         date: new Date(2020, 3),
@@ -105,7 +126,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     mango: {
         title: 'Mango',
-        desc: 'Mobile application to download and read latest manga chapters',
+        desc: {
+            en: 'Mobile application to download and read latest manga chapters',
+            fr: 'Application mobile de téléchargement et de lecture des derniers chapitres de manga sortis',
+        },
         img: '/img/projects/mango.png',
         tags: ['Mobile App', 'Web Scraping', 'Manga Reading'],
         date: new Date(2021, 7),
@@ -115,7 +139,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     maya: {
         title: 'Maya',
-        desc: 'Coded language writing web application',
+        desc: {
+            en: 'Coded language writing web application',
+            fr: 'Application web pour un langage codé',
+        },
         img: '/img/projects/maya.png',
         tags: ['Desktop App', 'Coded language'],
         date: new Date(2021, 6),
@@ -125,7 +152,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     mcplugins: {
         title: 'Plugins Minecraft',
-        desc: 'Java code which modifies the standard gameplay of the Minecraft game',
+        desc: {
+            en: 'Java code which modifies the standard gameplay of the Minecraft game',
+            fr: 'Code Java qui modifie le gamplay standard du jeu Minecraft',
+        },
         img: '/img/projects/mcplugins.png',
         tags: ['Game Plugins', 'Minecraft'],
         date: new Date(2018, 11),
@@ -134,7 +164,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'pizza-horizon7': {
         title: 'Pizza Horizon7',
-        desc: 'Pizza sales site for a charity (scout)',
+        desc: {
+            en: 'Pizza sales site for a charity (scout)',
+            fr: 'Site de vente de Pizza pour une oeuvre charitative (scout)',
+        },
         img: '/img/projects/pizzahorizon7.png',
         tags: ['Sale site', 'Charity', 'Email sender'],
         date: new Date(2020, 9),
@@ -153,7 +186,7 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'rummikub-java': {
         title: 'Rummikub (Java edition)',
-        desc: 'Multiplayer board game',
+        desc: { en: 'Multiplayer board game', fr: 'Jeu de société en ligne' },
         img: '/img/projects/rummikub-java.png',
         tags: ['Multiplayer game', 'Board game', 'Desktop App'],
         date: new Date(2019, 8),
@@ -163,7 +196,7 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'rummikub-nodejs': {
         title: 'Rummikub (NodeJS edition)',
-        desc: 'Multiplayer board game',
+        desc: { en: 'Multiplayer board game', fr: 'Jeu de société en ligne' },
         img: '/img/projects/rummikub-nodejs.png',
         tags: ['Multiplayer game', 'Board game', 'Website'],
         date: new Date(2019, 8),
@@ -181,7 +214,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'tirage-aleatoire': {
         title: 'Random drawing',
-        desc: 'Configurable random drawing site',
+        desc: {
+            en: 'Configurable random drawing site',
+            fr: 'Site de tirage au sort aléatoire configurable',
+        },
         img: '/img/projects/tiragealeatoire.png',
         tags: ['Sleek design', 'Random Drawing', 'Configurable'],
         date: new Date(2021, 7),
@@ -192,7 +228,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     'tv-replay': {
         title: 'TV Replay',
-        desc: 'TV program replay and download application',
+        desc: {
+            en: 'TV program replay and download application',
+            fr: 'Application de téléchargement et de replay des programmes TV',
+        },
         img: '/img/projects/tvreplay.png',
         tags: ['Replay TV', 'Download', 'Desktop App'],
         date: new Date(2022, 0),
@@ -202,7 +241,10 @@ export const projectsData: { [key: string]: ProjectData } = {
     },
     ufood: {
         title: 'UFood',
-        desc: 'TV program replay and download application',
+        desc: {
+            en: 'Site for sharing reviews, information and restaurant locations',
+            fr: "Site de partage d'avis, d'informations et de localisation de restaurants",
+        },
         img: '/img/projects/ufood.png',
         tags: ['Replay TV', 'Download', 'Desktop App'],
         date: new Date(2022, 0),

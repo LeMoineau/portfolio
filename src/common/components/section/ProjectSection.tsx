@@ -11,6 +11,7 @@ import AvatarTag from '../text/AvatarTag'
 import ProjectTag from '../text/ProjectTag'
 import Divider from '../text/Divider'
 import { ProjectData } from '@/common/resources/interfaces/project-data'
+import { useTranslation } from 'react-i18next'
 
 export default function ProjectSection({
     projectData,
@@ -21,7 +22,7 @@ export default function ProjectSection({
         month: 'short',
         year: 'numeric',
     })
-
+    const { i18n } = useTranslation()
     return (
         <div className="flex flex-col-reverse md:flex-row py-8">
             <Section className="md:px-10 md:pt-10">
@@ -45,7 +46,7 @@ export default function ProjectSection({
                     src={projectData.img}
                     className="my-5 rounded drop-shadow"
                 ></CustomIcon>
-                <p>{projectData.desc}</p>
+                <p>{projectData.desc[i18n.language]}</p>
             </Section>
             <div className="md:w-1/2 h-full md:ml-5">
                 <Section>

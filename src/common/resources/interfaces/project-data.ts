@@ -2,7 +2,7 @@ import { Client } from './client'
 
 export interface ProjectData {
     title: string
-    desc: string
+    desc: { [locale: string]: string }
     img: string
     tags: string[]
     date: Date

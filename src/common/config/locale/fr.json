@@ -30,10 +30,21 @@
         "copyright1": "Site construit avec",
         "copyright2": "et"
     },
+    "projects-page": {
+        "title1": "Mes",
+        "title2": "Projets",
+        "desc": "Voici tous mes projets ! Découvrez dans ce portfolio de nombreux projets variés, de simple site vitrine à complète application mobile."
+    },
+    "project-not-found": {
+        "title1": "Mince ",
+        "title2": "! Ce projet n'existe pas ",
+        "title3": "encore "
+    },
     "common": {
         "available-for-work": "DISPONIBLE",
         "contact-btn": "Me contacter",
         "downloadCV-btn": "Télécharger mon CV",
-        "copyEmail-btn": "Copier Mail"
+        "copyEmail-btn": "Copier Mail",
+        "url-cv": "/assets/CV - Pierre FABER.pdf"
     }
 }
