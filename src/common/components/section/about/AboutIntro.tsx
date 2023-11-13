@@ -1,32 +1,49 @@
+import { useTranslation } from 'react-i18next'
 import Divider from '../../text/Divider'
 import Title from '../../text/Title'
 
 export default function AboutIntro() {
+    const { t } = useTranslation()
     return (
         <>
             <Title className="mt-5 mb-3">
-                <span className="text-green-500">Hi</span>! my name is{' '}
-                <span className="text-sky-500">Pierre</span>
-                <span className="text-red-400"> Faber</span>.
+                <span className="text-green-500">
+                    {t('about.intro.title1')}
+                </span>
+                {t('about.intro.title2')}{' '}
+                <span className="text-sky-500">{t('about.intro.title3')}</span>
+                <span className="text-red-400"> {t('about.intro.title4')}</span>
+                {t('about.intro.title5')}
             </Title>
             <Divider className="my-5"></Divider>
             <p className="indent-8">
-                Passionné de codage depuis{' '}
-                <span className="text-amber-500 font-medium underline">
-                    plus de 12 ans
+                {t('about.intro.text1')}{' '}
+                <span className="text-amber-500 font-medium">
+                    {t('about.intro.color1')}
                 </span>
-                , je suis aujourd'hui un{' '}
+                {t('about.intro.text2')}{' '}
                 <span className="text-pink-500 font-medium">
-                    développeur Full-Stack, Web et Mobile
+                    {t('about.intro.color2')}
                 </span>{' '}
-                avec une légère préférence pour le développement web front-end !
-                Travailleur qui sait s'adapter, créatif et fiable, j'aime
-                apprendre de nouvelles choses et suis fier d'avoir déjà réalisé
-                plusieurs projets informatiques.
+                {t('about.intro.text3')}{' '}
+                <span className="font-medium text-blue-500">
+                    {t('about.intro.color3')}
+                </span>
+                , {t('about.intro.text4')}{' '}
+                <span className="font-medium text-green-500">
+                    {t('about.intro.color4')}
+                </span>{' '}
+                {t('about.intro.text5')}{' '}
+                <span className="font-medium text-orange-500">
+                    {t('about.intro.color5')}
+                </span>
+                .{t('about.intro.text6')}{' '}
+                <span className="font-medium text-purple-500">
+                    {t('about.intro.color6')}
+                </span>
+                .
             </p>
-            <p className="mt-4 indent-8">
-                Je suis prêt à rejoindre votre équipe dès maintenant ! 🚀
-            </p>
+            <p className="mt-4 indent-8  italic">{t('about.intro.text7')}</p>
         </>
     )
 }

@@ -49,6 +49,26 @@
             "key2": "Availability",
             "value2": "Now"
         },
+        "intro": {
+            "title1": "Hi",
+            "title2": "! How ",
+            "title3": "are",
+            "title4": "you",
+            "title5": "?",
+            "text1": "Passionate about coding for",
+            "color1": "over 12 years",
+            "text2": ", I am today a",
+            "color2": "Full-Stack, Web and Mobile developer",
+            "text3": "with a slight preference for front-end web development! As a graduated engineer, I am a worker who knows how to",
+            "color3": "adapt",
+            "text4": "be ",
+            "color4": "creative  ",
+            "text5": "and",
+            "color5": "reliable",
+            "text6": " I like learning new things and am proud to have already completed",
+            "color6": "several IT projects",
+            "text7": "\" Ready to join your team right now! 🚀 \""
+        },
         "hobbies": {
             "title1": "My",
             "title2": "Hobbies",

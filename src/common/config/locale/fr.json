@@ -49,6 +49,26 @@
             "key2": "Disponibilité",
             "value2": "Maintenant"
         },
+        "intro": {
+            "title1": "Bonjour",
+            "title2": " ! Comment ",
+            "title3": "allez",
+            "title4": "vous",
+            "title5": " ?",
+            "text1": "Passionné de codage depuis",
+            "color1": "plus de 12 ans",
+            "text2": ", je suis aujourd'hui un",
+            "color2": "développeur Full-Stack, Web et Mobile",
+            "text3": "avec une légère préférence pour le développement web front-end ! Ingénieur diplomé, je suis un travailleur qui sait",
+            "color3": "s'adapter",
+            "text4": "faire preuve de",
+            "color4": "créativité ",
+            "text5": "et",
+            "color5": "fiable",
+            "text6": " J'aime apprendre de nouvelles choses et suis fier d'avoir déjà concrétisé",
+            "color6": "plusieurs projets informatiques",
+            "text7": "\" Je suis prêt à rejoindre votre équipe dès maintenant ! 🚀 \""
+        },
         "hobbies": {
             "title1": "Mes",
             "title2": "Centre d'intêrets",
