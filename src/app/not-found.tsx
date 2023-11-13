@@ -1,11 +1,11 @@
+import StandardButton from '@/common/components/buttons/StandardButton'
+import RightArrow from '@/common/components/img/RightArrow'
 import Footer from '@/common/components/misc/Footer'
 import Header from '@/common/components/misc/Header'
-import Section from '@/common/components/misc/Section'
-import MyProjectsSubSection from '@/common/components/section/MyProjectsSubSection'
 import CustomLink from '@/common/components/text/CustomLink'
 import Title from '@/common/components/text/Title'
 import { useTranslation } from 'react-i18next'
-import { Outlet, useRouteError } from 'react-router-dom'
+import { useRouteError } from 'react-router-dom'
 
 export default function NotFound() {
     const error = useRouteError()
@@ -14,30 +14,32 @@ export default function NotFound() {
     return (
         <div className="w-full max-w-[70rem] px-4 md:px-8 pt-5 pb-0">
             <Header></Header>
-            <main>
+            <main className="flex flex-col justify-center items-center">
                 <div className="text-center">
                     <Title className="mt-24 mb-5">
-                        <span className="text-red-500">Oups</span>! Nous ne
-                        trouvons page la
-                        <span className="text-purple-400">page</span>
-                        que vous cherchez...
+                        <span className="text-red-500">
+                            {t('page-not-found.title1')}
+                        </span>
+                        {t('page-not-found.title2')}{' '}
+                        <span className="text-purple-400">
+                            {t('page-not-found.title3')}
+                        </span>{' '}
+                        {t('page-not-found.title4')}
                     </Title>
-                    <p>
-                        Il semblerait que la page que vous cherchez n'existe
-                        pas...
-                    </p>
-                    <p className="mb-24">
-                        However, you can look at my{' '}
+                    <p>{t('page-not-found.text1')}</p>
+                    <p className="mb-4">
+                        {t('page-not-found.text2')}{' '}
                         <CustomLink href="/projects" decoration noblank>
-                            other projects
-                        </CustomLink>
-                        ! Or{' '}
-                        <CustomLink href="/" decoration noblank>
-                            contact me
+                            {t('page-not-found.link1')}
                         </CustomLink>{' '}
-                        if you need more informations about this project!
+                        {t('page-not-found.text3')}
                     </p>
                 </div>
+                <CustomLink href="/" noblank className="mb-24">
+                    <StandardButton appendChild={<RightArrow></RightArrow>}>
+                        {t('page-not-found.redirect-btn')}
+                    </StandardButton>
+                </CustomLink>
             </main>
             <Footer></Footer>
         </div>

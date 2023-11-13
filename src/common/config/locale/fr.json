@@ -51,6 +51,17 @@
         "link2": "contactez-moi",
         "text4": "si vous avez besoin de plus d'informations sur ce projet !"
     },
+    "page-not-found": {
+        "title1": "Oups ",
+        "title2": "! Nous ne trouvons page la",
+        "title3": "page ",
+        "title4": "que vous cherchez...",
+        "text1": "Il semblerait que la page que vous cherchez n'existe pas...",
+        "text2": "Cependant, vous pouvez revenir vers le",
+        "link1": "Portfolio",
+        "text3": "en appuyant sur le bouton ci-dessous :",
+        "redirect-btn": "Se rediriger vers le portfolio"
+    },
     "about": {
         "intro": {
             "title1": "Bonjour",
