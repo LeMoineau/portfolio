@@ -43,7 +43,13 @@
     "project-not-found": {
         "title1": "Mince ",
         "title2": "! Ce projet n'existe pas ",
-        "title3": "encore "
+        "title3": "encore ",
+        "text1": "Il semble que le projet que vous recherchez n'existe pas encore...",
+        "text2": "Cependant, vous pouvez regarder mes",
+        "link1": "autres projets",
+        "text3": " ! Ou",
+        "link2": "contactez-moi",
+        "text4": "si vous avez besoin de plus d'informations sur ce projet !"
     },
     "about": {
         "intro": {

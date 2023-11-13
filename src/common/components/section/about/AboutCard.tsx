@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import ContactMeButton from '../../buttons/ContactMeButton'
 import DownloadCVButton from '../../buttons/DownloadCVButton'
-import StandardButton from '../../buttons/StandardButton'
 import Avatar from '../../img/Avatar'
 import SubSection from '../../misc/SubSection'
 import AvailableForWork from '../../text/AvailableForWork'

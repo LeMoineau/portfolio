@@ -6,7 +6,7 @@ export default function GlobalBackground() {
     const { t } = useTranslation()
     return (
         <div className="fixed top-0 left-0 w-screen h-full flex items-center justify-center">
-            <div className="flex flex-col md:flex-row justify-center items-center md:items-start w-full px-2 md:px-20">
+            <div className="max-w-[70rem] flex flex-col md:flex-row justify-center items-center md:items-start w-full px-2 md:px-20">
                 <div className="mb-5 md:mb-0">
                     <Avatar
                         className="drop-shadow w-16 h-16"

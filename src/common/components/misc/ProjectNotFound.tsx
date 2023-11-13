@@ -7,7 +7,7 @@ import Section from './Section'
 export default function ProjectNotFound() {
     const { t } = useTranslation()
     return (
-        <div>
+        <>
             <div className="text-center">
                 <Title className="mt-24 mb-5">
                     <span className="text-red-500">
@@ -19,26 +19,23 @@ export default function ProjectNotFound() {
                     </span>
                     !
                 </Title>
-                <p>
-                    It seems that the project you are looking for does not yet
-                    exist...
-                </p>
+                <p>{t('project-not-found.text1')}</p>
                 <p className="mb-24">
-                    However, you can look at my{' '}
+                    {t('project-not-found.text2')}{' '}
                     <CustomLink href="/projects" decoration noblank>
-                        other projects
+                        {t('project-not-found.link1')}
                     </CustomLink>
-                    ! Or{' '}
+                    {t('project-not-found.text3')}{' '}
                     <CustomLink href="/" decoration noblank>
-                        contact me
+                        {t('project-not-found.link2')}
                     </CustomLink>{' '}
-                    if you need more informations about this project!
+                    {t('project-not-found.text4')}
                 </p>
             </div>
 
             <Section>
                 <MyProjectsSubSection></MyProjectsSubSection>
             </Section>
-        </div>
+        </>
     )
 }

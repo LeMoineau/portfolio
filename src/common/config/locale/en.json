@@ -43,7 +43,13 @@
     "project-not-found": {
         "title1": "Crap",
         "title2": "! The project you are looking for does not exist ",
-        "title3": "yet"
+        "title3": "yet",
+        "text1": "It seems that the project you are looking for does not yet exist...",
+        "text2": "However, you can look at my",
+        "link1": "other projects",
+        "text3": "! Or",
+        "link2": "contact me",
+        "text4": "if you need more informations about this project!"
     },
     "about": {
         "intro": {
