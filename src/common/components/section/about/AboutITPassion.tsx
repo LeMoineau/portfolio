@@ -1,102 +1,142 @@
+import { useTranslation } from 'react-i18next'
 import CustomLink from '../../text/CustomLink'
 import Divider from '../../text/Divider'
 import Title from '../../text/Title'
 
 export default function AboutITPassion() {
+    const { t } = useTranslation()
     return (
         <>
             <Title className="mt-12 mb-3">
-                Ma passion pour l'informatique.
+                {t('about.ITPassion.title1')}{' '}
+                <span className="font-medium text-green-500">
+                    {t('about.ITPassion.title2')}
+                </span>{' '}
+                {t('about.ITPassion.title3')}
+                <span className="font-medium text-orange-500">
+                    {t('about.ITPassion.title4')}
+                </span>
+                .
             </Title>
             <Divider className="my-5"></Divider>
             <p className="indent-8">
-                Pour autant que je sache, j'aime depuis mes années collèges
-                créer des choses sur l'ordinateur. En commençant d'abord par des
-                jeux vidéos grâce au moteur de jeu{' '}
+                {t('about.ITPassion.text1')}{' '}
+                <span className="font-medium text-sky-500">
+                    {t('about.ITPassion.color1')}
+                </span>{' '}
+                {t('about.ITPassion.text2')}{' '}
                 <CustomLink href="https://docs.unity.com/" decoration>
-                    Unity3D
+                    {t('about.ITPassion.link1')}
                 </CustomLink>
-                , j'ai continué mon expérience de la programmation en
-                développant des plugins en Java améliorant et modifiant les
-                règles du jeu mondialement connu{' '}
-                <span className="text-green-500 font-medium">Minecraft ⛏</span>.
-                Certains sont d'ailleurs retrouvable dans l'onglet{' '}
+                {t('about.ITPassion.text3')}{' '}
+                <span className="font-medium text-amber-900">
+                    {t('about.ITPassion.color2')}
+                </span>{' '}
+                {t('about.ITPassion.text4')}{' '}
+                <span className="text-green-500 font-medium">
+                    {t('about.ITPassion.color3')}
+                </span>
+                .{t('about.ITPassion.text5')}{' '}
                 <CustomLink href="/projects/mcplugins" decoration>
-                    Projets
+                    {t('about.ITPassion.link2')}
                 </CustomLink>{' '}
-                !
+                {t('about.ITPassion.text6')}
             </p>
             <p className="mt-4 indent-8">
-                Après cela, je me suis tourné vers les langages du Web, d'abord
-                classique tel que HTML, CSS, Javascript allié au PHP et aux base
-                de données MySQL puis dans un second temps, en m'intéressant aux
-                modules Node.js et les nouveaux Framework Javascript avec{' '}
+                {t('about.ITPassion.text7')}{' '}
+                <span className="font-medium text-red-500">
+                    {t('about.ITPassion.color4')}
+                </span>
+                {t('about.ITPassion.text8')}{' '}
+                <span className="font-medium text-gray-400">
+                    {t('about.ITPassion.color5')}
+                </span>{' '}
+                {t('about.ITPassion.text9')}{' '}
+                <span className="font-medium text-amber-500">
+                    {t('about.ITPassion.color6')}
+                </span>{' '}
+                {t('about.ITPassion.text10')}{' '}
+                <span className="font-medium text-orange-500">
+                    {t('about.ITPassion.color7')}
+                </span>{' '}
+                {t('about.ITPassion.text11')}{' '}
                 <CustomLink href="https://react.dev/reference/" decoration>
-                    React.js
+                    {t('about.ITPassion.link3')}
                 </CustomLink>
                 ,{' '}
                 <CustomLink href="https://vuejs.org/guide" decoration>
-                    Vue.js
+                    {t('about.ITPassion.link4')}
                 </CustomLink>{' '}
-                et{' '}
+                {t('about.ITPassion.text12')}{' '}
                 <CustomLink href="https://angular.io/docs" decoration>
-                    Angular
+                    {t('about.ITPassion.link5')}
                 </CustomLink>
-                . En explorant les possibilités qu'offraient ces nouveaux outils
-                puissants basé sur du Javascript mais pérénisé par du
-                TypeScript, j'ai également travaillé sur des projets applicatif
-                et mobile avec notamment les librairies{' '}
+                {t('about.ITPassion.text13')}{' '}
+                <span className="font-medium text-purple-500">
+                    {t('about.ITPassion.color8')}
+                </span>{' '}
+                {t('about.ITPassion.text14')}{' '}
+                <span className="font-medium text-pink-500">
+                    {t('about.ITPassion.color9')}
+                </span>{' '}
+                {t('about.ITPassion.text15')}{' '}
                 <CustomLink
                     href="https://www.electronjs.org/fr/docs/latest/"
                     decoration
                 >
-                    Electron
+                    {t('about.ITPassion.link6')}
                 </CustomLink>{' '}
-                et{' '}
+                {t('about.ITPassion.text16')}{' '}
                 <CustomLink href="https://ionicframework.com/docs" decoration>
-                    Ionic
+                    {t('about.ITPassion.link7')}
                 </CustomLink>
-                . L'expérience du développement mobile s'est aussi accrue par la
-                réalisation de projets avec{' '}
+                {t('about.ITPassion.text17')}{' '}
                 <CustomLink href="https://docs.flutter.dev/" decoration>
-                    Flutter
+                    {t('about.ITPassion.link8')}
                 </CustomLink>{' '}
-                épaulés des bases de données{' '}
+                {t('about.ITPassion.text18')}{' '}
                 <CustomLink href="https://firebase.google.com/docs" decoration>
-                    Firebase
-                </CustomLink>
-            </p>
-            <p className="mt-4 indent-8">
-                En parallèle de ces apprentissages, j'ai pu continuer
-                d'aggrandir mon champs des connaissances informatiques notamment
-                grâce à ma formation et mes stages qui m'ont fait travaillé sur
-                du développement plus scientifique (
-                <span className="text-gray-800 font-medium">
-                    Machine Learning 🤖
-                </span>{' '}
-                et{' '}
-                <span className="text-purple-500 font-medium">
-                    Data Analyse 📈
-                </span>
-                ) et logiciel à travers les langages tel que{' '}
-                <CustomLink href="https://docs.python.org/3/" decoration>
-                    Python
-                </CustomLink>
-                ,{' '}
-                <CustomLink href="https://dev.java/" decoration>
-                    Java
-                </CustomLink>{' '}
-                et{' '}
-                <CustomLink href="https://www.wildfly.org/" decoration>
-                    Java JEE (Wildfly)
+                    {t('about.ITPassion.link9')}
                 </CustomLink>
                 .
             </p>
             <p className="mt-4 indent-8">
-                Aujourd'hui, je suis heureux de continuer d'apprendre et de
-                réaliser plusieurs projets personnels qui entretennent et font
-                grandir mes connaissances du développement et de l'informatique
-                en général !
+                {t('about.ITPassion.text19')}{' '}
+                <span className="font-medium text-red-500">
+                    {t('about.ITPassion.color10')}
+                </span>{' '}
+                {t('about.ITPassion.text20')}
+                <span className="text-gray-800 font-medium">
+                    {t('about.ITPassion.color11')}
+                </span>{' '}
+                {t('about.ITPassion.text21')}{' '}
+                <span className="text-purple-500 font-medium">
+                    {t('about.ITPassion.color12')}
+                </span>
+                {t('about.ITPassion.text22')}{' '}
+                <CustomLink href="https://docs.python.org/3/" decoration>
+                    {t('about.ITPassion.link10')}
+                </CustomLink>
+                ,{' '}
+                <CustomLink href="https://dev.java/" decoration>
+                    {t('about.ITPassion.link11')}
+                </CustomLink>{' '}
+                {t('about.ITPassion.text23')}{' '}
+                <CustomLink href="https://www.wildfly.org/" decoration>
+                    {t('about.ITPassion.link12')}
+                </CustomLink>
+                .
+            </p>
+            <p className="mt-4 indent-8">
+                {t('about.ITPassion.text24')}{' '}
+                <span className="font-medium text-green-500">
+                    {t('about.ITPassion.color13')}
+                </span>{' '}
+                {t('about.ITPassion.text25')}{' '}
+                <span className="font-medium text-orange-500">
+                    {t('about.ITPassion.color14')}
+                </span>{' '}
+                {t('about.ITPassion.text26')}
             </p>
         </>
     )
