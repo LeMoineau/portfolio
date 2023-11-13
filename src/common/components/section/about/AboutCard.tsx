@@ -22,19 +22,19 @@ export default function AboutCard() {
                 Pierre Faber.
             </h3>
             <p className="text-sm text-center font-medium text-orange-600">
-                {t('about.card.title')}
+                {t('common.card.title')}
             </p>
             <p className="italic text-xs mt-1 text-center">
-                {t('about.card.subtitle')}
+                {t('common.card.subtitle')}
             </p>
             <CustomList>
                 <PillListItem
-                    entitle={t('about.card.key1')}
-                    content={t('about.card.value1')}
+                    entitle={t('common.card.key1')}
+                    content={t('common.card.value1')}
                 ></PillListItem>
                 <PillListItem
-                    entitle={t('about.card.key2')}
-                    content={t('about.card.value2')}
+                    entitle={t('common.card.key2')}
+                    content={t('common.card.value2')}
                 ></PillListItem>
                 <PillListItem
                     entitle="Email"

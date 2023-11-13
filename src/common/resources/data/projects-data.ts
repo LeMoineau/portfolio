@@ -253,3 +253,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         color: 'bg-red-200',
     },
 }
+
+export const projectsKeyByDate = Object.keys(projectsData).sort((a, b) => {
+    return projectsData[b].date.getTime() - projectsData[a].date.getTime()
+})

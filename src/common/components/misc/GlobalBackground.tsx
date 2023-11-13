@@ -18,21 +18,31 @@ export default function GlobalBackground() {
                 >
                     <span className="absolute top-0 left-1/2 md:top-8 md:left-0 transform translate-x-[-50%] translate-y-[-100%] md:translate-x-[-100%] md:translate-y-[-50%] bg-transparent border-[10px] border-b-[15px] md:border-b-[10px] border-b-white md:border-b-transparent md:border-r-[15px] md:border-l-0 md:border-r-white bg-transparent border-transparent"></span>
                     <p>
+                        <span className="text-orange-500">
+                            {t('global-bg.color0')}
+                        </span>
                         {t('global-bg.text1')}{' '}
-                        <span className="text-sky-500">Pierre</span>.
+                        <span className="text-sky-500">
+                            {t('global-bg.color1')}
+                        </span>
+                        {t('global-bg.text2')}
                     </p>
                     <p>
-                        {t('global-bg.text2')}{' '}
-                        <span className="text-yellow-400">
-                            {t('global-bg.color1')}{' '}
-                        </span>
                         {t('global-bg.text3')}{' '}
-                        <span className="text-purple-500">
+                        <span className="text-red-500">
                             {t('global-bg.color2')}{' '}
                         </span>
                         {t('global-bg.text4')}{' '}
+                        <span className="text-yellow-400">
+                            {t('global-bg.color3')}{' '}
+                        </span>
+                        {t('global-bg.text5')}{' '}
+                        <span className="text-purple-500">
+                            {t('global-bg.color4')}{' '}
+                        </span>
+                        {t('global-bg.text6')}{' '}
                         <span className="text-green-400">
-                            {t('global-bg.color3')}
+                            {t('global-bg.color5')}
                         </span>
                         !
                     </p>

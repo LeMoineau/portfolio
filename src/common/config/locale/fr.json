@@ -5,13 +5,18 @@
         "contact": "contactez moi!"
     },
     "global-bg": {
-        "text1": "Hey! Je m'appelle",
-        "text2": "Je",
-        "color1": "designe",
-        "text3": "et",
-        "color2": "développe",
-        "text4": "des sites comme",
-        "color3": "freelancer ",
+        "color0": "Bienvenue",
+        "text1": " dans mon ",
+        "color1": "Portfolio",
+        "text2": " !",
+        "text3": "Je m'appelle ",
+        "color2": "Pierre",
+        "text4": "et je ",
+        "color3": "designe",
+        "text5": "et",
+        "color4": "développe",
+        "text6": "des sites comme",
+        "color5": "freelancer",
         "subtitle1": "Des projets intéressants ?",
         "link1": "Contactez-moi",
         "subtitle2": " ou regardez mes",
@@ -41,14 +46,6 @@
         "title3": "encore "
     },
     "about": {
-        "card": {
-            "title": "Développeur Full-Stack, Web Front-end et Mobile",
-            "subtitle": "\"Prêt à rejoindre votre équipe dès maintenant ! 🚀\"",
-            "key1": "Localisation",
-            "value1": "En télétravail",
-            "key2": "Disponibilité",
-            "value2": "Maintenant"
-        },
         "intro": {
             "title1": "Bonjour",
             "title2": " ! Comment ",
@@ -176,6 +173,14 @@
         "find-more-infos-in-cv": "Retrouvez toutes ces informations dans mon CV !"
     },
     "common": {
+        "card": {
+            "title": "Développeur Full-Stack, Web Front-end et Mobile",
+            "subtitle": "\"Prêt à rejoindre votre équipe dès maintenant ! 🚀\"",
+            "key1": "Localisation",
+            "value1": "En télétravail",
+            "key2": "Disponibilité",
+            "value2": "Maintenant"
+        },
         "available-for-work": "DISPONIBLE",
         "contact-btn": "Me contacter",
         "downloadCV-btn": "Télécharger mon CV",

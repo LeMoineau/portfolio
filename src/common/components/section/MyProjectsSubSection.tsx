@@ -1,28 +1,13 @@
 import SubSection from '../misc/SubSection'
 import StandardButton from '../buttons/StandardButton'
-import React from 'react'
 import CustomIcon from '../img/CustomIcon'
 import RightArrow from '../img/RightArrow'
 import CustomLink from '../text/CustomLink'
 import { useTranslation } from 'react-i18next'
-
-const projects: React.ReactNode[] = []
-for (let i = 0; i < 10; i++) {
-    projects.push(
-        <CustomLink
-            href={'/projects/myMajor'}
-            noblank
-            key={i}
-            className="h-auto w-auto rounded-lg"
-        >
-            <CustomIcon
-                src={'/img/projects/ahoy.png'}
-                alt="MyMajor"
-                className="w-40 h-40 md:w-56 md:h-56 rounded drop-shadow"
-            ></CustomIcon>
-        </CustomLink>
-    )
-}
+import {
+    projectsData,
+    projectsKeyByDate,
+} from '@/common/resources/data/projects-data'
 
 export default function MyProjectsSubSection() {
     const { t } = useTranslation()
@@ -37,8 +22,21 @@ export default function MyProjectsSubSection() {
                 </CustomLink>
             }
         >
-            <div className="flex flex-row justify-start space-x-2 mt-6 rounded border-l-2 border-r-2 border-gray-200 mt-2 max-w-full overflow-y-scroll md:overflow-hidden">
-                {projects}
+            <div className="flex flex-row justify-start mt-6 py-2 rounded mt-2 max-w-full overflow-y-scroll md:overflow-hidden">
+                {projectsKeyByDate.slice(0, 5).map((p, i) => (
+                    <CustomLink
+                        href={`/projects/${p}`}
+                        noblank
+                        key={i}
+                        className={`${projectsData[p].color} h-auto w-auto rounded-lg drop-shadow mr-2`}
+                    >
+                        <CustomIcon
+                            src={projectsData[p].img}
+                            alt={projectsData[p].title}
+                            className="w-40 h-40 md:w-56 md:h-56 rounded drop-shadow"
+                        ></CustomIcon>
+                    </CustomLink>
+                ))}
             </div>
         </SubSection>
     )

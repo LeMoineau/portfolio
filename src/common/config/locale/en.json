@@ -5,13 +5,18 @@
         "contact": "contact me!"
     },
     "global-bg": {
-        "text1": "Hey! My name is",
-        "text2": "I",
-        "color1": "design",
-        "text3": "and",
-        "color2": "develop",
-        "text4": "websites as a",
-        "color3": "freelancer",
+        "color0": "Welcome",
+        "text1": " to my ",
+        "color1": "Portfolio",
+        "text2": "!",
+        "text3": "My name is ",
+        "color2": "Pierre",
+        "text4": "and I ",
+        "color3": "design",
+        "text5": "and",
+        "color4": "develop",
+        "text6": "websites as a",
+        "color5": "freelancer",
         "subtitle1": "Have an exciting project?",
         "link1": "Contact me",
         "subtitle2": "! Or see my",
@@ -41,14 +46,6 @@
         "title3": "yet"
     },
     "about": {
-        "card": {
-            "title": "Full-Stack, Web Front-end & Mobile Developer",
-            "subtitle": "\"Ready to join your team right now! 🚀\"",
-            "key1": "Location",
-            "value1": "On Remote",
-            "key2": "Availability",
-            "value2": "Now"
-        },
         "intro": {
             "title1": "Hi",
             "title2": "! How ",
@@ -176,6 +173,14 @@
         "find-more-infos-in-cv": "Find more informations in my Resume!"
     },
     "common": {
+        "card": {
+            "title": "Full-Stack, Web Front-end & Mobile Developer",
+            "subtitle": "\"Ready to join your team right now! 🚀\"",
+            "key1": "Location",
+            "value1": "On Remote",
+            "key2": "Availability",
+            "value2": "Now"
+        },
         "available-for-work": "AVAILABLE FOR WORK",
         "contact-btn": "Contact me!",
         "downloadCV-btn": "Download Resume",

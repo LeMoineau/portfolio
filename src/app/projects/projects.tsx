@@ -1,6 +1,9 @@
 import ProjectButton from '@/common/components/buttons/ProjectButton'
 import Section from '@/common/components/misc/Section'
-import { projectsData } from '@/common/resources/data/projects-data'
+import {
+    projectsData,
+    projectsKeyByDate,
+} from '@/common/resources/data/projects-data'
 import Title from '@/common/components/text/Title'
 import Divider from '@/common/components/text/Divider'
 import { useTranslation } from 'react-i18next'
@@ -23,23 +26,16 @@ export default function ProjectsPage() {
                 </p>
             </Section>
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-4 md:mt-4 pt-2 rounded-b-lg">
-                {Object.keys(projectsData)
-                    .sort((a, b) => {
-                        return (
-                            projectsData[b].date.getTime() -
-                            projectsData[a].date.getTime()
-                        )
-                    })
-                    .map((key, i) => {
-                        const project = projectsData[key]
-                        return (
-                            <ProjectButton
-                                projectData={project}
-                                href={`/projects/${key}`}
-                                key={i}
-                            ></ProjectButton>
-                        )
-                    })}
+                {projectsKeyByDate.map((key, i) => {
+                    const project = projectsData[key]
+                    return (
+                        <ProjectButton
+                            projectData={project}
+                            href={`/projects/${key}`}
+                            key={i}
+                        ></ProjectButton>
+                    )
+                })}
             </div>
         </>
     )
