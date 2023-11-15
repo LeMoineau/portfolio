@@ -32,6 +32,8 @@ export default function ContactPage() {
     const [loading, setLoading] = useState(false)
 
     const fieldsCorrect = (): boolean => {
+        setSuccess(false)
+        setError('')
         if (
             firstname.trim().length <= 0 ||
             email.trim().length <= 0 ||
@@ -102,12 +104,12 @@ export default function ContactPage() {
                     className="flex flex-col justify-center items-center max-w-[35rem] w-full py-10"
                 >
                     <div className="space-y-3 flex flex-col items-center w-full">
-                        {error && (
+                        {!success && error && (
                             <p className="bg-red-100 rounded border border-red-200 p-2 w-full text-center text-red-800">
                                 {error}
                             </p>
                         )}
-                        {success && (
+                        {!error && success && (
                             <p className="bg-green-100 rounded border border-green-200 p-2 w-full text-center text-green-800">
                                 {t('contact.success-msg')}
                             </p>
