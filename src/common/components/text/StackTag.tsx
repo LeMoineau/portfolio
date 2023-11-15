@@ -9,7 +9,10 @@ export default function StackTag({
     className?: string
 }) {
     return (
-        <BackgroundText bg="bg-sky-200" className={`rounded-full ${className}`}>
+        <BackgroundText
+            bg="bg-sky-200"
+            className={`rounded-full text-center ${className}`}
+        >
             {children}
         </BackgroundText>
     )
