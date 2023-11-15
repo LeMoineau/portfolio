@@ -210,7 +210,7 @@
         },
         "message-label": "Message",
         "message-placeholder": "Please be as specific as possible. Eg: project details, examples, budget, etc.",
-        "send-btn": "Sentd the mail!",
+        "send-btn": "Send the mail!",
         "tips-title": "Tips:",
         "tips-content": "An email will be sent to you to confirm good reception of your message.",
         "success-msg": "Your message has been sent successfully!",
