@@ -1,9 +1,15 @@
-import React from "react";
+import React from 'react'
 
 export default function SubTitle({
-  children,
+    children,
+    className,
 }: {
-  children: string | React.ReactNode;
+    children: string | React.ReactNode
+    className?: string
 }) {
-  return <h2 className={`font-medium text-gray-700 md:text-xl`}>{children}</h2>;
+    return (
+        <h2 className={`${className} font-medium text-gray-700 md:text-xl`}>
+            {children}
+        </h2>
+    )
 }
