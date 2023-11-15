@@ -1,12 +1,20 @@
+import { TFunction } from 'i18next'
+import { useTranslation } from 'react-i18next'
+
 export default function EmailSend({
     firstname,
     lastname,
     message,
+    t,
 }: {
     firstname: string
     lastname?: string
     message: string
+    t?: TFunction
 }) {
+    if (!t) {
+        t = useTranslation().t
+    }
     return (
         <>
             <div
@@ -32,28 +40,30 @@ export default function EmailSend({
                 >
                     <h1>
                         <span style={{ color: 'rgb(249, 115, 22)' }}>
-                            Merci
+                            {t('contact.email-send.title1')}
                         </span>{' '}
-                        d'avoir prit le{' '}
+                        {t('contact.email-send.title2')}{' '}
                         <span
                             style={{ color: 'rgb(22, 163, 74)' }}
                             className="text-green-600"
                         >
-                            temps
+                            {t('contact.email-send.title3')}
                         </span>{' '}
-                        de m'
+                        {t('contact.email-send.title4')}
                         <span
                             style={{ color: 'rgb(236, 72, 153)' }}
                             className="text-pink-500"
                         >
-                            écrire
-                        </span>{' '}
-                        !
+                            {t('contact.email-send.title5')}
+                        </span>
+                        {t('contact.email-send.title6')}
                     </h1>
                     <p>
-                        Bonjour {firstname} {lastname} !
+                        {t('contact.email-send.text1')} {firstname}
+                        {lastname && ` ${lastname}`}
+                        {t('contact.email-send.text2')}
                     </p>
-                    <p>Voici le message que vous m'avez envoyé : </p>
+                    <p>{t('contact.email-send.text3')}</p>
                     <pre
                         style={{
                             fontFamily: 'arial',
@@ -67,11 +77,8 @@ export default function EmailSend({
                     >
                         {message}
                     </pre>
-                    <p>
-                        Si vous avez besoin de me contacter, vous pouvez le
-                        faire en réponse à ce mail ou par message LinkedIn !
-                    </p>
-                    <p>Bonne journée,</p>
+                    <p>{t('contact.email-send.text4')}</p>
+                    <p>{t('contact.email-send.text5')}</p>
                     <div
                         style={{
                             marginTop: '0.75rem',
@@ -94,7 +101,7 @@ export default function EmailSend({
                                     ></img>
                                 </td>
                                 <td>
-                                    <p style={{ margin: '0' }}>Pierre Faber</p>
+                                    <p style={{ margin: '0' }}>Pierre Faber.</p>
                                 </td>
                             </tr>
                             <tr>

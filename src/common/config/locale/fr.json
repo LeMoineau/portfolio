@@ -216,7 +216,19 @@
         "success-msg": "Votre message a été envoyé avec succès !",
         "missing-field-error-msg": "Un ou plusieurs champs sont manquants",
         "wrong-subject-error-msg": "Veuillez choisir un sujet",
-        "email-send": {}
+        "email-send": {
+            "title1": "Merci",
+            "title2": "d'avoir prit le",
+            "title3": "temps ",
+            "title4": "de m'",
+            "title5": "écrire",
+            "title6": " !",
+            "text1": "Bonjour",
+            "text2": " !",
+            "text3": "Voici le message que vous m'avez envoyé :",
+            "text4": "Si vous avez besoin de me contacter, vous pouvez le faire en réponse à ce mail ou par message LinkedIn !",
+            "text5": "Bonne journée,"
+        }
     },
     "common": {
         "card": {

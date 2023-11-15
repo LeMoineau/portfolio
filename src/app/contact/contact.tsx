@@ -73,7 +73,7 @@ export default function ContactPage() {
                     subjects[Number(subject)]
                 }] ${email} - ${firstname} ${lastname}`,
                 html: ReactDOMServer.renderToString(
-                    EmailSend({ firstname, lastname, message })
+                    EmailSend({ firstname, lastname, message, t })
                 ),
             })
             sendResult(res)

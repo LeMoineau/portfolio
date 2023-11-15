@@ -216,7 +216,19 @@
         "success-msg": "Your message has been sent successfully!",
         "missing-field-error-msg": "One or more of your fields are missing data",
         "wrong-subject-error-msg": "Please select a subject",
-        "email-send": {}
+        "email-send": {
+            "title1": "Thanks",
+            "title2": "for taking the",
+            "title3": "time",
+            "title4": "to write",
+            "title5": " to me",
+            "title6": "!",
+            "text1": "Hello",
+            "text2": "!",
+            "text3": "Here is the message you sent me:",
+            "text4": "If you need to contact me, you can do so in response to this email or by LinkedIn message!",
+            "text5": "Have a good day,"
+        }
     },
     "common": {
         "card": {

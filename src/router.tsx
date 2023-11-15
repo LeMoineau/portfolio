@@ -34,6 +34,16 @@ export const routes: RouteObject[] = [
                 path: 'contact',
                 element: <ContactPage></ContactPage>,
             },
+            // {
+            //     path: 'contact/email-send',
+            //     element: (
+            //         <EmailSend
+            //             firstname="Pierre"
+            //             lastname="Faber"
+            //             message="a message"
+            //         ></EmailSend>
+            //     ),
+            // },
         ],
     },
 ]
