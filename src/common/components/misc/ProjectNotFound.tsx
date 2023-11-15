@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import MyProjectsSubSection from '../section/MyProjectsSubSection'
+import MyProjectsSubSection from '../section/MyProjectsSection'
 import CustomLink from '../text/CustomLink'
 import Title from '../text/Title'
 import Section from './Section'

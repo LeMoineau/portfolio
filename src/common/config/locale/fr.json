@@ -189,6 +189,35 @@
         },
         "find-more-infos-in-cv": "Retrouvez toutes ces informations dans mon CV !"
     },
+    "contact": {
+        "title1": "Que ",
+        "title2": "puis-je",
+        "title3": "faire pour",
+        "title4": "vous",
+        "title5": " ?",
+        "subtitle": "Quelle est votre demande ? Comment puis-je vous aider ?",
+        "firstname-label": "Votre prénom",
+        "firstname-placeholder": "Marie",
+        "lastname-label": "Votre nom",
+        "lastname-placeholder": "Dupont",
+        "email-label": "Votre adresse mail",
+        "email-placeholder": "marie.dupont@example.com",
+        "subject-label": "Sujet",
+        "subject-values": {
+            "1": "Renseignement Projet",
+            "2": "Avis, Commentaires",
+            "3": "Autres"
+        },
+        "message-label": "Message",
+        "message-placeholder": "Soyez le plus spécifique possible. Ex: détails du projet, exemples, budgets..etc",
+        "send-btn": "Envoyer le mail !",
+        "tips-title": "Remarque:",
+        "tips-content": "Un mail de confirmation vous sera envoyé pour attester de la bonne réception de votre mail !",
+        "success-msg": "Votre message a été envoyé avec succès !",
+        "missing-field-error-msg": "Un ou plusieurs champs sont manquants",
+        "wrong-subject-error-msg": "Veuillez choisir un sujet",
+        "email-send": {}
+    },
     "common": {
         "card": {
             "title": "Développeur Full-Stack, Web Front-end et Mobile",

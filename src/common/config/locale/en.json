@@ -189,6 +189,35 @@
         },
         "find-more-infos-in-cv": "Find more informations in my Resume!"
     },
+    "contact": {
+        "title1": "What ",
+        "title2": "can I",
+        "title3": "do for",
+        "title4": "you",
+        "title5": "?",
+        "subtitle": "What is your request? How can I help you?",
+        "firstname-label": "Your firstname",
+        "firstname-placeholder": "James",
+        "lastname-label": "Your lastname",
+        "lastname-placeholder": "Smith",
+        "email-label": "Your Email address",
+        "email-placeholder": "james.smith@example.com",
+        "subject-label": "Subject",
+        "subject-values": {
+            "1": "Projet Request",
+            "2": "Advices, Comments",
+            "3": "Others"
+        },
+        "message-label": "Message",
+        "message-placeholder": "Please be as specific as possible. Eg: project details, examples, budget, etc.",
+        "send-btn": "Sentd the mail!",
+        "tips-title": "Tips:",
+        "tips-content": "An email will be sent to you to confirm good reception of your message.",
+        "success-msg": "Your message has been sent successfully!",
+        "missing-field-error-msg": "One or more of your fields are missing data",
+        "wrong-subject-error-msg": "Please select a subject",
+        "email-send": {}
+    },
     "common": {
         "card": {
             "title": "Full-Stack, Web Front-end & Mobile Developer",
