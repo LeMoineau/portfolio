@@ -10,7 +10,7 @@ export default function Header() {
     const { t, i18n } = useTranslation()
 
     function getOppositeLanguage() {
-        return i18n.language === 'fr' ? 'en' : 'fr'
+        return i18n.language === 'fr' || i18n.language === 'fr-FR' ? 'en' : 'fr'
     }
 
     return (
