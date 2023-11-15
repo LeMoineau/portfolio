@@ -6,7 +6,6 @@ import ProjectPage from './app/projects/project'
 import Home from './app'
 import NotFound from './app/not-found'
 import ContactPage from './app/contact/contact'
-import EmailSend from './app/contact/email/email-send'
 
 export const routes: RouteObject[] = [
     {

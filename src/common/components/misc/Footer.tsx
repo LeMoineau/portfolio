@@ -1,12 +1,8 @@
-'use client'
-
 import Section from './Section'
 import SubSection from './SubSection'
-import StandardButton from '../buttons/StandardButton'
 import SubTitle from '../text/SubTitle'
 import Avatar from '../img/Avatar'
 import AvailableForWork from '../text/AvailableForWork'
-import CopyButton from '../buttons/CopyButton'
 import Title from '../text/Title'
 import CustomLink from '../text/CustomLink'
 import { useTranslation } from 'react-i18next'

@@ -1,6 +1,5 @@
 import React from 'react'
 import BackgroundText from './BackgroundText'
-import Image from 'next/image'
 
 export default function ProjectTag({
     tag,
