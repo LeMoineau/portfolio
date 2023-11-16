@@ -16,7 +16,7 @@ export default function ProjectButton({
         <CustomLink
             noblank
             href={href}
-            className="bg-white drop-shadow rounded h-fit overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
+            className="bg-white drop-shadow rounded h-fit md:h-full overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
         >
             <div className="w-full h-fit p-4 ">
                 <div
