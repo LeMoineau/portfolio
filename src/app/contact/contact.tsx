@@ -127,7 +127,7 @@ export default function ContactPage() {
                             ></CustomInput>
                             <CustomInput
                                 name="lastname"
-                                label={`${t('contact.lastname-label')}*`}
+                                label={`${t('contact.lastname-label')}`}
                                 className="w-full"
                                 placeholder={t('contact.lastname-placeholder')}
                                 onChange={(evt) =>
