@@ -48,7 +48,7 @@ export default function GlobalBackground() {
                     </p>
                     <p className="text-sm md:text-base text-slate-500 mt-3 md:mt-0">
                         {t('global-bg.subtitle1')}{' '}
-                        <CustomLink href="/" decoration noblank>
+                        <CustomLink href="/contact" decoration noblank>
                             {t('global-bg.link1')}
                         </CustomLink>
                         {t('global-bg.subtitle2')}{' '}

@@ -50,14 +50,10 @@ export default function Footer() {
                     <CustomLink href={'https://www.github.com/LeMoineau/'}>
                         github
                     </CustomLink>
-                    <CustomLink
-                        href={'https://www.linkedin.com/in/pierrefaber/'}
-                    >
+                    <CustomLink href={'https://twitter.com/pierrot552'}>
                         twitter
                     </CustomLink>
-                    <CustomLink
-                        href={'https://www.linkedin.com/in/pierrefaber/'}
-                    >
+                    <CustomLink href={'https://dribbble.com/pierrot552'}>
                         dribbble
                     </CustomLink>
                 </div>

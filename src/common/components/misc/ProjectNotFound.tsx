@@ -26,7 +26,7 @@ export default function ProjectNotFound() {
                         {t('project-not-found.link1')}
                     </CustomLink>
                     {t('project-not-found.text3')}{' '}
-                    <CustomLink href="/" decoration noblank>
+                    <CustomLink href="/contact" decoration noblank>
                         {t('project-not-found.link2')}
                     </CustomLink>{' '}
                     {t('project-not-found.text4')}
