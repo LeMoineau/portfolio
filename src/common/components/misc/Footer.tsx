@@ -25,7 +25,7 @@ export default function Footer() {
             <div className="flex flex-row justify-center my-6">
                 <Avatar className="w-14 h-14" available></Avatar>
                 <div className="ml-4">
-                    <CustomLink href="/about">
+                    <CustomLink href="/about" noblank>
                         <p className="font-medium">Pierre Faber.</p>
                     </CustomLink>
                     <AvailableForWork></AvailableForWork>
