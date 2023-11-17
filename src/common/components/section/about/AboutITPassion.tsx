@@ -93,7 +93,7 @@ export default function AboutITPassion() {
                 {t('about.ITPassion.text17')}{' '}
                 <CustomLink href="https://docs.flutter.dev/" decoration>
                     {t('about.ITPassion.link8')}
-                </CustomLink>{' '}
+                </CustomLink>
                 {t('about.ITPassion.text18')}{' '}
                 <CustomLink href="https://firebase.google.com/docs" decoration>
                     {t('about.ITPassion.link9')}

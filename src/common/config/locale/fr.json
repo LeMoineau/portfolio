@@ -30,7 +30,7 @@
         "title1": "",
         "title2": "Travaillons",
         "title3": "ensemble ",
-        "subtitle": "Créons des sites et des applications qui remplissent vos besoins",
+        "subtitle": "Créons des sites et des applications qui répondent à vos besoins",
         "followMe": "Me suivre",
         "copyright1": "Site construit avec",
         "copyright2": "et"
@@ -38,7 +38,7 @@
     "projects-page": {
         "title1": "Mes",
         "title2": "Projets",
-        "desc": "Voici tous mes projets ! Découvrez dans ce portfolio de nombreux projets variés, de simple site vitrine à complète application mobile."
+        "desc": "Voici tous mes projets ! Découvrez dans ce portfolio de nombreux projets variés, du simple site vitrine à l'application mobile entièrement menée à bien."
     },
     "project-not-found": {
         "title1": "Mince ",
@@ -73,12 +73,12 @@
             "color1": "plus de 12 ans",
             "text2": ", je suis aujourd'hui un",
             "color2": "développeur Full-Stack, Web et Mobile",
-            "text3": "avec une légère préférence pour le développement web front-end ! Ingénieur diplomé, je suis un travailleur qui sait",
-            "color3": "s'adapter",
-            "text4": "faire preuve de",
-            "color4": "créativité ",
-            "text5": "et",
-            "color5": "fiable",
+            "text3": "avec une légère préférence pour le développement web front-end ! Ingénieur diplomé, je suis un travailleur",
+            "color3": "fiable",
+            "text4": "qui sait ",
+            "color4": "s'adapter",
+            "text5": "et faire preuve de",
+            "color5": "créativité",
             "text6": " J'aime apprendre de nouvelles choses et suis fier d'avoir déjà concrétisé",
             "color6": "plusieurs projets informatiques",
             "text7": "\" Je suis prêt à rejoindre votre équipe dès maintenant ! 🚀 \""
@@ -101,8 +101,8 @@
             "text6": " !",
             "text7": "Après cela, je me suis tourné vers les",
             "color4": "langages du Web 🧰",
-            "text8": ", d'abord classique tel que HTML, CSS, Javascript allié au PHP et aux",
-            "color5": "base de données 🗄",
+            "text8": ", d'abord classiques tel que HTML, CSS, Javascript allié au PHP et aux",
+            "color5": "bases de données 🗄",
             "text9": "MySQL puis dans un second temps, en m'intéressant aux",
             "color6": "modules Node.js 🔑",
             "text10": "et les nouveaux",
@@ -112,7 +112,7 @@
             "link4": "Vue.js",
             "text12": "et",
             "link5": "Angular",
-            "text13": ". En explorant les possibilités qu'offraient ces nouveaux outils puissants basé sur du Javascript mais pérénisé par du TypeScript, j'ai également travaillé sur des",
+            "text13": ". En explorant les possibilités qu'offraient ces nouveaux outils puissants basés sur du Javascript mais pérénisés par du TypeScript, j'ai également travaillé sur des",
             "color8": "projets applicatif 🖥 ",
             "text14": "et ",
             "color9": "mobile 📱",
@@ -120,17 +120,17 @@
             "link6": "Electron",
             "text16": "et",
             "link7": "Ionic",
-            "text17": ". L'expérience du développement mobile s'est aussi accrue par la réalisation de projets avec",
+            "text17": ". Mon expérience du développement mobile s'est aussi accrue par la réalisation de projets avec",
             "link8": "Flutter",
-            "text18": "épaulés des bases de données",
+            "text18": ", épaulés des bases de données",
             "link9": "Firebase",
             "text19": "En parallèle de ces apprentissages, j'ai pu continuer d'aggrandir mon champs des connaissances informatiques notamment grâce à",
             "color10": "ma formation et mes stages 🏫",
-            "text20": "qui m'ont fait travaillé sur du développement plus scientifique (",
+            "text20": "qui m'ont fait travailler sur du développement plus scientifique (",
             "color11": "Machine Learning 🤖",
             "text21": "et",
             "color12": "Data Analyse 📈",
-            "text22": ") et logiciel à travers les langages tel que",
+            "text22": ") et logiciel à travers les langages tels que",
             "link10": "Python",
             "link11": "Java",
             "text23": "et",
@@ -139,7 +139,7 @@
             "color13": "continuer d'apprendre",
             "text25": "et de réaliser plusieurs",
             "color14": "projets personnels",
-            "text26": "qui entretennent et font grandir mes connaissances du développement et de l'informatique en général !"
+            "text26": "qui entretiennent et font grandir mes connaissances du développement et de l'informatique en général !"
         },
         "hobbies": {
             "title1": "Mes",
@@ -185,7 +185,7 @@
             "color8": "mobile 📱",
             "text11": "ainsi qu'en",
             "color9": "gestion de projet 👨‍🏫",
-            "text12": "que je serai fier de m'être au service de votre projet !"
+            "text12": "que je serai fier de mettre au service de votre projet !"
         },
         "find-more-infos-in-cv": "Retrouvez toutes ces informations dans mon CV !"
     },
