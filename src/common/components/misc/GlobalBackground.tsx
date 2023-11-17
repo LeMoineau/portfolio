@@ -1,12 +1,32 @@
 import { useTranslation } from 'react-i18next'
 import Avatar from '../img/Avatar'
 import CustomLink from '../text/CustomLink'
+import { useEffect, useState } from 'react'
 
 export default function GlobalBackground() {
     const { t } = useTranslation()
+    const [scrollPosition, setScrollPosition] = useState(0)
+    const [screenHeight, setScreenHeight] = useState(600)
+
+    const handleScroll = () => {
+        setScreenHeight(window.screen.availHeight)
+        setScrollPosition(window.scrollY)
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true })
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
     return (
         <div className="fixed top-0 left-0 w-screen h-full flex items-center justify-center">
-            <div className="max-w-[70rem] flex flex-col md:flex-row justify-center items-center md:items-start w-full px-2 md:px-20">
+            <div
+                style={{ opacity: 1 - scrollPosition / (0.5 * screenHeight) }}
+                className="max-w-[70rem] flex flex-col md:flex-row justify-center items-center md:items-start w-full px-4 md:px-20"
+            >
                 <div className="mb-5 md:mb-0">
                     <Avatar
                         className="drop-shadow w-16 h-16"
