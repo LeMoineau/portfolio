@@ -20,7 +20,7 @@ export default function Footer() {
                 <span className="text-blue-400">{t('footer.title3')}</span>!
             </Title>
             <p className="text-gray-700 text-center mt-1 text-sm">
-                {t('footer.subtitle')}
+                {t('footer.subtitle')}.
             </p>
             <div className="flex flex-row justify-center my-6">
                 <Avatar className="w-14 h-14" available></Avatar>
