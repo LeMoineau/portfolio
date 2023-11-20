@@ -74,7 +74,7 @@
             "text2": ", je suis aujourd'hui un",
             "color2": "développeur Full-Stack, Web et Mobile",
             "text3": "avec une légère préférence pour le développement web front-end ! Ingénieur diplomé, je suis un travailleur",
-            "color3": "fiable",
+            "color3": " fiable ",
             "text4": "qui sait ",
             "color4": "s'adapter",
             "text5": "et faire preuve de",
@@ -218,7 +218,7 @@
         "wrong-subject-error-msg": "Veuillez choisir un sujet",
         "email-send": {
             "title1": "Merci",
-            "title2": "d'avoir prit le",
+            "title2": "d'avoir pris le",
             "title3": "temps ",
             "title4": "de m'",
             "title5": "écrire",

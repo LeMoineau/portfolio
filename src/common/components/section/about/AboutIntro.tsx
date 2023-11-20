@@ -29,7 +29,7 @@ export default function AboutIntro() {
                 <span className="font-medium text-blue-500">
                     {t('about.intro.color3')}
                 </span>
-                , {t('about.intro.text4')}{' '}
+                {t('about.intro.text4')}{' '}
                 <span className="font-medium text-green-500">
                     {t('about.intro.color4')}
                 </span>{' '}
