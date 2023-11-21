@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import NavButton from '../buttons/NavButton'
-import Avatar from '../img/Avatar'
 import CustomLink from '../text/CustomLink'
 import { useTranslation } from 'react-i18next'
 import CustomIcon from '../img/CustomIcon'
@@ -20,7 +19,8 @@ export default function Header() {
                 noblank
                 className="flex justify-start items-center space-x-4"
             >
-                <Avatar className="w-10 h-10"></Avatar>
+                <CustomIcon src="/favicon.svg" className="w-5 h-5"></CustomIcon>
+                {/* <Avatar className="w-10 h-10"></Avatar> */}
                 <p className="px-2 py-1 bg-black text-white rounded text-sm md:text-base">
                     Pierre Faber.
                 </p>

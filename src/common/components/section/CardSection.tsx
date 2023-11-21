@@ -20,7 +20,7 @@ export default function CardSection({ className }: { className?: string }) {
             <Section className={className}>
                 <div className="flex flex-col md:flex-row">
                     <SubSection
-                        className="min-w-[14rem] min-h-[14rem] mb-4 md:mb-0 md:w-56 md:h-56"
+                        className="min-w-[14rem] min-h-[14rem] mb-4 md:mb-0 md:w-56 md:h-56 flex flex-col justify-center"
                         classNameChildren="w-full h-full flex flex-col justify-center items-center"
                     >
                         <Avatar className="w-20 h-20" available></Avatar>
