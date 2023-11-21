@@ -252,6 +252,40 @@ export const projectsData: { [key: string]: ProjectData } = {
         repository: 'https://github.com/LeMoineau/UFood',
         color: 'bg-red-200',
     },
+    'family-tree': {
+        title: 'Family Tree',
+        desc: {
+            en: 'Navigable online family tree',
+            fr: 'Arbre généalogique en ligne navigable',
+        },
+        img: '/img/projects/family-tree.webp',
+        tags: ['Family Tree', 'Showcase Website'],
+        date: new Date(2023, 0),
+        stack: [
+            'React.js',
+            'Vite',
+            'TypeScript',
+            'JsPlumb',
+            'Tailwindcss',
+            'Zustand',
+        ],
+        repository: 'https://github.com/LeMoineau/UFood',
+        link: 'https://bigstones.fr/family-tree',
+        color: 'bg-green-200',
+    },
+    'solu-bots': {
+        title: 'Solu-Bots',
+        desc: {
+            en: 'Robots to get the best scores in popular internet games',
+            fr: "Robots pour faire les meilleurs scores à des jeux populaires d'internet",
+        },
+        img: '/img/projects/gamebots.webp',
+        tags: ['Bot', 'Video Games', 'Humouristic'],
+        date: new Date(2023, 5),
+        stack: ['Javascript', 'Github', 'HTML/CSS/Javascript'],
+        repository: 'https://github.com/LeMoineau/solu-bots',
+        color: 'bg-red-200',
+    },
 }
 
 export const projectsKeyByDate = Object.keys(projectsData).sort((a, b) => {
