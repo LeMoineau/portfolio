@@ -260,7 +260,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         },
         img: '/img/projects/family-tree.webp',
         tags: ['Family Tree', 'Showcase Website'],
-        date: new Date(2023, 0),
+        date: new Date(2023, 9),
         stack: [
             'React.js',
             'Vite',
