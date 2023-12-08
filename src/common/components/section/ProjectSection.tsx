@@ -25,7 +25,7 @@ export default function ProjectSection({
     const { i18n } = useTranslation()
     return (
         <div className="flex flex-col-reverse md:flex-row py-8">
-            <Section className="md:px-10 md:pt-10">
+            <Section className="md:px-10 mt-4 md:mt-0 md:pt-10">
                 <CustomLink href={'/projects'} noblank>
                     <StandardButton
                         prependChild={
