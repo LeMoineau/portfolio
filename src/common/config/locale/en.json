@@ -38,7 +38,8 @@
     "projects-page": {
         "title1": "My",
         "title2": "Projects",
-        "desc": "Here are all my previous projects. Discover in this portfolio plenty of varied projects from showcase websites to complete mobile phone app."
+        "desc": "Here are all my previous projects. Discover in this portfolio plenty of varied projects from showcase websites to complete mobile phone app.",
+        "searchbar-placeholder": "Vue, React, Mobile app..."
     },
     "project-not-found": {
         "title1": "Crap",

@@ -7,9 +7,13 @@ import {
 import Title from '@/common/components/text/Title'
 import Divider from '@/common/components/text/Divider'
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
+import CustomSearchBar from '@/common/components/form/CustomSearchBar'
+import { SearchUtils } from '@/common/services/search-utils'
 
 export default function ProjectsPage() {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+    const [query, setQuery] = useState('')
     return (
         <>
             <Section className="p-8 mt-4 md:mt-8">
@@ -25,16 +29,35 @@ export default function ProjectsPage() {
                     {t('projects-page.desc')}
                 </p>
             </Section>
+            <div className="pt-0 rounded-t-none sticky top-20 z-10">
+                <CustomSearchBar
+                    className="mt-4 md:mt-6"
+                    placeholder={t('projects-page.searchbar-placeholder')}
+                    onChange={(evt) => setQuery(evt.target.value.toLowerCase())}
+                ></CustomSearchBar>
+            </div>
+
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-4 md:mt-4 pt-2 rounded-b-lg">
                 {projectsKeyByDate.map((key, i) => {
                     const project = projectsData[key]
-                    return (
-                        <ProjectButton
-                            projectData={project}
-                            href={`/projects/${key}`}
-                            key={i}
-                        ></ProjectButton>
-                    )
+                    if (
+                        query.trim().length <= 0 ||
+                        SearchUtils.findInString(
+                            project.desc[i18n.language],
+                            query
+                        ) ||
+                        SearchUtils.findInStringArray(project.stack, query) ||
+                        SearchUtils.findInStringArray(project.tags, query) ||
+                        SearchUtils.findInString(project.title, query)
+                    ) {
+                        return (
+                            <ProjectButton
+                                projectData={project}
+                                href={`/projects/${key}`}
+                                key={i}
+                            ></ProjectButton>
+                        )
+                    }
                 })}
             </div>
         </>

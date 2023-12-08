@@ -11,4 +11,5 @@ export interface ProjectData {
     repository?: string
     client?: Client[]
     color?: string
+    details?: { [locale: string]: string }
 }

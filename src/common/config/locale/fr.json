@@ -38,7 +38,8 @@
     "projects-page": {
         "title1": "Mes",
         "title2": "Projets",
-        "desc": "Voici tous mes projets ! Découvrez dans ce portfolio de nombreux projets variés, du simple site vitrine à l'application mobile entièrement menée à bien."
+        "desc": "Voici tous mes projets ! Découvrez dans ce portfolio de nombreux projets variés, du simple site vitrine à l'application mobile entièrement menée à bien.",
+        "searchbar-placeholder": "Vue, React, Mobile app..."
     },
     "project-not-found": {
         "title1": "Mince ",
