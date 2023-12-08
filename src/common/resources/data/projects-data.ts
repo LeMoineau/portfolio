@@ -87,7 +87,7 @@ export const projectsData: { [key: string]: ProjectData } = {
         title: "Easy's cube",
         desc: {
             en: "Humorous site about a 1x1 rubik's cube",
-            fr: "Site humouristique sur un Rubis's cube 1x1",
+            fr: "Site humouristique sur un Rubik's cube 1x1",
         },
         img: '/img/projects/easyscube.webp',
         tags: ['Design', 'Humouristic', 'Academic Project'],
