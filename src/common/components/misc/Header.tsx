@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return (
-        <header className="sticky top-0 z-10 flex flex-row flex-wrap bg-white p-4 rounded-md justify-between items-center w-full h-auto drop-shadow border border-gray-100">
+        <header className="sticky top-5 z-20 flex flex-row flex-wrap bg-white p-4 rounded-md justify-between items-center w-full h-auto drop-shadow border border-gray-100">
             <CustomLink
                 href={'/'}
                 noblank

@@ -29,7 +29,7 @@ export default function ProjectsPage() {
                     {t('projects-page.desc')}
                 </p>
             </Section>
-            <div className="pt-0 rounded-t-none sticky top-20 z-10">
+            <div className="pt-0 rounded-t-none sticky top-24 z-10">
                 <CustomSearchBar
                     className="mt-4 md:mt-6"
                     placeholder={t('projects-page.searchbar-placeholder')}
