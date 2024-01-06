@@ -36,6 +36,48 @@ export const projectsData: { [key: string]: ProjectData } = {
         repository: 'https://github.com/LeMoineau/portfolio',
         color: 'bg-blue-200',
     },
+    'lc-branding': {
+        title: 'LC Branding',
+        desc: {
+            en: 'Creating logo for a computer store "LC"',
+            fr: `Création d'un logo pour la boutique d'informatque "LC"`,
+        },
+        img: '/img/projects/lc_branding.webp',
+        tags: ['Branding', 'Logo', 'Design'],
+        date: new Date(2023, 11),
+        stack: ['Inkscape', 'Canvas', 'Adobe Stock', 'Google Slide'],
+        link: 'https://docs.google.com/presentation/d/18FMBUXwoq3h5AN7nRz5XyHmwq_beLUCZX4yDV8IeY08/edit?usp=drive_link',
+        color: 'bg-white',
+    },
+    'pootime-adventure-mobile-app': {
+        title: 'PooTime Adventure (Mobile app)',
+        desc: {
+            en: 'Mobile duel game between "Poo-Creature"',
+            fr: `Jeu mobile de duel entre "Poo-Créature"`,
+        },
+        img: '/img/projects/pootime-adventure-mobile-app.webp',
+        tags: ['Christmas Gift', 'Joke', 'Video Game', 'Mobile app'],
+        date: new Date(2023, 11),
+        stack: ['React Native', 'Expo', 'Typescript', 'EAS', 'VScode'],
+        link: 'https://bigstones.fr/pootime-adventure',
+        repository: 'https://github.com/LeMoineau/pootime-adventure-mobile-app',
+        color: 'bg-orange-200',
+    },
+    'pootime-adventure-battle-server': {
+        title: 'PooTime Adventure (Server)',
+        desc: {
+            en: 'Web Socket Server for battle in PooTime Adventure game',
+            fr: `Serveur Web Socket de gestion des batailles pour le jeu PooTime Adventure`,
+        },
+        img: '/img/projects/pootime-adventure-battle-server.webp',
+        tags: ['Christmas Gift', 'Joke', 'Web Socket', 'Node.js Server'],
+        date: new Date(2023, 11),
+        stack: ['Typescript', 'Node.js', 'socket.io', 'express', 'VScode'],
+        link: 'https://pootime-adventure-battle-server.onrender.com/',
+        repository:
+            'https://github.com/LeMoineau/pootime-adventure-battle-server',
+        color: 'bg-gray-50',
+    },
     mymajor: {
         title: 'myMajor',
         desc: {
