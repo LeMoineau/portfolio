@@ -46,7 +46,11 @@ export default function ProjectSection({
                     src={projectData.img}
                     className="my-5 rounded drop-shadow"
                 ></CustomIcon>
-                <p>{projectData.desc[i18n.language]}</p>
+                <p>
+                    {projectData.details
+                        ? projectData.details[i18n.language]
+                        : projectData.desc[i18n.language]}
+                </p>
             </Section>
             <div className="md:w-1/2 h-full md:ml-5">
                 <Section>

@@ -22,6 +22,20 @@ export const projectsData: { [key: string]: ProjectData } = {
         repository: 'https://picpotions2022.pages.insa-rouen.fr/realisation/',
         color: 'bg-sky-200',
     },
+    portfolio: {
+        title: 'Portfolio',
+        desc: {
+            en: 'Personal portfolio showing all my previous projects and introducing myself',
+            fr: 'Portfolio personnel présentant tous mes précédents projets et moi-même',
+        },
+        img: '/img/projects/portfolio.webp',
+        tags: ['Portfolio', 'Projects', 'Website'],
+        date: new Date(2023, 10),
+        stack: ['Vite', 'React', 'i18n', 'TailwindCSS', 'VScode', 'figma'],
+        link: 'https://pierre-faber.fr',
+        repository: 'https://github.com/LeMoineau/portfolio',
+        color: 'bg-blue-200',
+    },
     mymajor: {
         title: 'myMajor',
         desc: {
@@ -279,12 +293,9 @@ export const projectsData: { [key: string]: ProjectData } = {
             'Tailwindcss',
             'Zustand',
         ],
-        repository: 'https://github.com/LeMoineau/UFood',
+        repository: 'https://github.com/LeMoineau/familytree',
         link: 'https://bigstones.fr/family-tree',
         color: 'bg-green-200',
-        details: {
-            fr: '',
-        },
     },
     'solu-bots': {
         title: 'Solu-Bots',
