@@ -33,7 +33,11 @@ export default function ProjectsPage() {
                 <CustomSearchBar
                     className="mt-4 md:mt-6"
                     placeholder={t('projects-page.searchbar-placeholder')}
-                    onChange={(evt) => setQuery(evt.target.value.toLowerCase())}
+                    onChange={(evt) => {
+                        if (!!evt?.target?.value) {
+                            setQuery(evt.target.value.toLowerCase())
+                        }
+                    }}
                 ></CustomSearchBar>
             </div>
 

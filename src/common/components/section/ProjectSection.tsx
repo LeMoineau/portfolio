@@ -2,7 +2,6 @@ import Section from '../misc/Section'
 import StandardButton from '../buttons/StandardButton'
 import RightArrow from '../img/RightArrow'
 import Title from '../text/Title'
-import CustomIcon from '../img/CustomIcon'
 import SubSection from '../misc/SubSection'
 import SubSubTitle from '../text/SubSubTitle'
 import StackTag from '../text/StackTag'
@@ -12,6 +11,7 @@ import ProjectTag from '../text/ProjectTag'
 import Divider from '../text/Divider'
 import { ProjectData } from '@/common/resources/interfaces/project-data'
 import { useTranslation } from 'react-i18next'
+import ImageCarousel from '../ui/ImageCarousel'
 
 export default function ProjectSection({
     projectData,
@@ -42,10 +42,7 @@ export default function ProjectSection({
                     </span>
                 </Title>
                 <Divider className="my-5"></Divider>
-                <CustomIcon
-                    src={projectData.img}
-                    className="my-5 rounded drop-shadow"
-                ></CustomIcon>
+                <ImageCarousel images={projectData.imgs}></ImageCarousel>
                 <p>
                     {projectData.details
                         ? projectData.details[i18n.language]

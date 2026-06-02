@@ -50,8 +50,15 @@ export default function Footer() {
                     <CustomLink href={'https://www.github.com/LeMoineau/'}>
                         github
                     </CustomLink>
-                    <CustomLink href={'https://twitter.com/pierrot552'}>
-                        twitter
+                    <CustomLink
+                        href={
+                            'https://play.google.com/store/apps/dev?id=6014339825981218094'
+                        }
+                    >
+                        Google Play
+                    </CustomLink>
+                    <CustomLink href={'https://www.instagram.com/pierrot.dev/'}>
+                        instagram
                     </CustomLink>
                     <CustomLink href={'https://dribbble.com/pierrot552'}>
                         dribbble

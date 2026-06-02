@@ -37,7 +37,7 @@ export default function MyProjectsSubSection({
                             className={`${projectsData[p].color} h-auto w-auto rounded-lg drop-shadow mr-2`}
                         >
                             <CustomIcon
-                                src={projectsData[p].img}
+                                src={projectsData[p].imgs[0]}
                                 alt={projectsData[p].title}
                                 className="w-40 h-40 md:w-56 md:h-56 rounded drop-shadow"
                             ></CustomIcon>

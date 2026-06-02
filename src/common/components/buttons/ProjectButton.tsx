@@ -25,13 +25,13 @@ export default function ProjectButton({
                     } rounded drop-shadow overflow-hidden`}
                 >
                     <CustomIcon
-                        src={projectData.img}
+                        src={projectData.imgs[0]}
                         className="rounded-sm drop-shadow-md"
                     ></CustomIcon>
                 </div>
             </div>
 
-            <div className="pt-1 pb-5 px-5 text-center">
+            <div className="pt-1 pb-3 px-5 text-center">
                 <h3 className="text-center font-semibold mt-0">
                     {projectData.title}
                 </h3>
