@@ -48,7 +48,7 @@ export default function Footer() {
                         LinkedIn
                     </CustomLink>
                     <CustomLink href={'https://www.github.com/LeMoineau/'}>
-                        github
+                        Github
                     </CustomLink>
                     <CustomLink
                         href={
@@ -58,10 +58,12 @@ export default function Footer() {
                         Google Play
                     </CustomLink>
                     <CustomLink href={'https://www.instagram.com/pierrot.dev/'}>
-                        instagram
+                        Instagram
                     </CustomLink>
-                    <CustomLink href={'https://dribbble.com/pierrot552'}>
-                        dribbble
+                    <CustomLink
+                        href={'https://www.artstation.com/pierrot-moineau'}
+                    >
+                        ArtStation
                     </CustomLink>
                 </div>
             </SubSection>

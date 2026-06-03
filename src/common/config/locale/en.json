@@ -15,8 +15,8 @@
         "color3": "design",
         "text5": "and",
         "color4": "develop",
-        "text6": "websites as a",
-        "color5": "freelancer",
+        "text6": "everything that can exists on the",
+        "color5": "internet",
         "subtitle1": "Have an exciting project?",
         "link1": "Contact me",
         "subtitle2": "! Or see my",
@@ -30,7 +30,7 @@
         "title1": "Let's ",
         "title2": "work",
         "title3": "together",
-        "subtitle": "Creating websites and application to fit your business",
+        "subtitle": "Let's create new projects that suits you",
         "followMe": "Follow me!",
         "copyright1": "Made with",
         "copyright2": "and"
@@ -233,10 +233,10 @@
     },
     "common": {
         "card": {
-            "title": "Full-Stack, Web Front-end & Mobile Developer",
+            "title": "Indie Developer living on the internet",
             "subtitle": "\"Ready to join your team right now! 🚀\"",
             "key1": "Location",
-            "value1": "On Remote",
+            "value1": "France",
             "key2": "Availability",
             "value2": "Now"
         },

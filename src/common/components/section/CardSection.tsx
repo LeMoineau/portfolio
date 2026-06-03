@@ -9,8 +9,8 @@ export default function CardSection({ className }: { className?: string }) {
     const { t } = useTranslation()
     const currentStacks = [
         'Next.js / React.js / Vue.js',
-        'TailwindCSS',
-        'Vite + TypeScript',
+        'Unity / Unreal Engine',
+        'Inkscape / Blender / GIMP',
         'Vitest / Jest',
         'Prisma / Sequelize',
         'PostgreSQL / Firebase',

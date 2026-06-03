@@ -63,6 +63,46 @@ export const projectsData: { [key: string]: ProjectData } = {
         link: 'https://www.artstation.com/artwork/a0Kagz',
         color: 'bg-blue-500',
     },
+    applezombieman: {
+        title: 'an apple, a zombie & a man',
+        desc: {
+            en: '',
+            fr: '',
+        },
+        imgs: [
+            '/img/projects/applezombieman/1.jpg',
+            '/img/projects/applezombieman/2.jpg',
+            '/img/projects/applezombieman/3.jpg',
+            '/img/projects/applezombieman/4.jpg',
+            '/img/projects/applezombieman/5.jpg',
+            '/img/projects/applezombieman/6.jpg',
+        ],
+        tags: ['Graphism', 'Pixel Art', 'Drawing', 'Game', 'Video Game'],
+        date: new Date(2019, 10),
+        stack: ['GIMP', 'Aseprite'],
+        link: 'https://www.artstation.com/artwork/1Ndl6e',
+        color: 'bg-yellow-200',
+    },
+    tshirtfamille: {
+        title: 'Design T-Shirt',
+        desc: {
+            en: '',
+            fr: '',
+        },
+        imgs: [
+            '/img/projects/tshirtfamille/1.jpg',
+            '/img/projects/tshirtfamille/2.jpg',
+            '/img/projects/tshirtfamille/3.jpg',
+            '/img/projects/tshirtfamille/4.jpg',
+            '/img/projects/tshirtfamille/5.jpg',
+            '/img/projects/tshirtfamille/6.jpg',
+        ],
+        tags: ['Graphism', 'Drawing'],
+        date: new Date(2023, 11),
+        stack: ['GIMP', 'Inkscape'],
+        link: 'https://www.artstation.com/artwork/mAxll9',
+        color: 'bg-gray-100',
+    },
     bigstones: {
         title: 'Bigstones Gang',
         desc: {
