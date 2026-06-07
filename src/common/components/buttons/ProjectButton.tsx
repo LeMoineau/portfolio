@@ -3,22 +3,25 @@ import CustomIcon from '../img/CustomIcon'
 import CustomLink from '../text/CustomLink'
 import ProjectTag from '../text/ProjectTag'
 import { ProjectData } from '@/common/resources/interfaces/project-data'
+import { memo } from 'react'
 
-export default function ProjectButton({
+function ProjectButton({
     projectData,
     href,
+    iconized,
 }: {
     projectData: ProjectData
     href: string
+    iconized?: boolean
 }) {
     const { i18n } = useTranslation()
     return (
         <CustomLink
             noblank
             href={href}
-            className="bg-white drop-shadow rounded h-fit md:h-full overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all"
+            className={`bg-white drop-shadow rounded h-fit ${iconized ? '' : 'md:h-full'} overflow-hidden mt-2 mb-2 hover:mt-0 hover:mb-4 transition-all`}
         >
-            <div className="w-full h-fit p-4 ">
+            <div className={`w-full h-fit ${iconized ? '' : 'p-4'}`}>
                 <div
                     className={`w-full h-fit ${
                         projectData.color ?? 'bg-orange-500'
@@ -31,23 +34,27 @@ export default function ProjectButton({
                 </div>
             </div>
 
-            <div className="pt-1 pb-3 px-5 text-center">
-                <h3 className="text-center font-semibold mt-0">
-                    {projectData.title}
-                </h3>
-                <p className="text-sm text-gray-700 ">
-                    {projectData.desc[i18n.language]}
-                </p>
-                <div className="flex flex-row hidden w-full flex-wrap space-x-2 mt-3">
-                    {projectData.tags.map((val, i) => (
-                        <ProjectTag
-                            key={i}
-                            tag={val}
-                            className="mt-2"
-                        ></ProjectTag>
-                    ))}
+            {!!!iconized && (
+                <div className="pt-1 pb-3 px-5 text-center">
+                    <h3 className="text-center font-semibold mt-0">
+                        {projectData.title}
+                    </h3>
+                    {/* <p className="text-sm text-gray-700 ">
+                        {projectData.desc[i18n.language]}
+                    </p> */}
+                    <div className="flex flex-row hidden w-full flex-wrap space-x-2 mt-3">
+                        {projectData.tags.map((val, i) => (
+                            <ProjectTag
+                                key={i}
+                                tag={val}
+                                className="mt-2"
+                            ></ProjectTag>
+                        ))}
+                    </div>
                 </div>
-            </div>
+            )}
         </CustomLink>
     )
 }
+
+export default memo(ProjectButton)

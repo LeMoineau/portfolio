@@ -42,7 +42,10 @@ export default function ProjectSection({
                     </span>
                 </Title>
                 <Divider className="my-5"></Divider>
-                <ImageCarousel images={projectData.imgs}></ImageCarousel>
+                <ImageCarousel
+                    images={projectData.imgs}
+                    bgColor={projectData.color}
+                ></ImageCarousel>
                 <p>
                     {projectData.details
                         ? projectData.details[i18n.language]

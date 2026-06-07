@@ -9,6 +9,9 @@ import { useTranslation } from 'react-i18next'
 import ContactMeButton from '../buttons/ContactMeButton'
 import DownloadCVButton from '../buttons/DownloadCVButton'
 import CopyEmailButton from '../buttons/CopyEmailButton'
+import DownloadPortfolioButton from '../buttons/DownloadPortfolioButton'
+// import pdfService from '../../services/pdf.service'
+// import { projectsData } from '../../resources/data/projects-data'
 
 export default function Footer() {
     const { t } = useTranslation()
@@ -31,10 +34,11 @@ export default function Footer() {
                     <AvailableForWork></AvailableForWork>
                 </div>
             </div>
-            <div className="flex flex-row space-x-2 justify-center font-medium">
+            <div className="flex flex-row space-x-2 justify-center flex-wrap gap-y-2 font-medium">
                 <ContactMeButton></ContactMeButton>
-                <DownloadCVButton></DownloadCVButton>
                 <CopyEmailButton></CopyEmailButton>
+                <DownloadCVButton></DownloadCVButton>
+                <DownloadPortfolioButton></DownloadPortfolioButton>
             </div>
             <SubSection
                 className="mt-8"

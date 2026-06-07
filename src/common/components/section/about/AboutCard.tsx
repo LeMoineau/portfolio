@@ -7,6 +7,7 @@ import AvailableForWork from '../../text/AvailableForWork'
 import CustomLink from '../../text/CustomLink'
 import CustomList from '../../text/CustomList'
 import PillListItem from '../../text/PillListItem'
+import DownloadPortfolioButton from '../../buttons/DownloadPortfolioButton'
 
 export default function AboutCard() {
     const { t } = useTranslation()
@@ -47,6 +48,7 @@ export default function AboutCard() {
             <div className="w-full items-center justify-center flex flex-row flex-wrap mt-4">
                 <ContactMeButton className="m-2"></ContactMeButton>
                 <DownloadCVButton className="mx-2"></DownloadCVButton>
+                <DownloadPortfolioButton></DownloadPortfolioButton>
             </div>
         </>
     )

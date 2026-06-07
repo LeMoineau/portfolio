@@ -176,9 +176,9 @@
             "text6": "from September 2020 to August 2023. During my training within this school, I had the opportunity to spend 1 semester in Canada at ",
             "link3": "Laval University",
             "text7": ", one of the largest universities in Quebec, to refine my knowledge in",
-            "color4": "Web development 💻",
+            "color4": "project management 👨‍🏫",
             "text8": "and ",
-            "color5": "project management 👨‍🏫",
+            "color5": "video games 🎮",
             "text9": "My academic cursus, always centered around IT, allowed me to acquire solid skills in",
             "color6": "Web development 💻",
             "color7": "software ⌨",
@@ -244,6 +244,8 @@
         "contact-btn": "Contact me!",
         "downloadCV-btn": "Download Resume",
         "copyEmail-btn": "Copy Email",
-        "url-cv": "/assets/Pierre FABER - Resume.pdf"
+        "url-cv": "/assets/CV - Pierre FABER.pdf",
+        "download-portfolio-btn": "Download Portfolio as PDF",
+        "portfolio-loading": "Creating..."
     }
 }

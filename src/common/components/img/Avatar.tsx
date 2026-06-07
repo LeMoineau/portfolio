@@ -11,7 +11,7 @@ export default function Avatar({
 }) {
     const avatar = (
         <CustomIcon
-            src={'/img/pierrot.webp'}
+            src={'/img/pierrot.jpeg'}
             alt={alt ?? ''}
             circle
             className={`${className} w-10 h-10 ${

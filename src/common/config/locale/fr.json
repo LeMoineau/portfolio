@@ -176,9 +176,9 @@
             "text6": "de septembre 2020 à aout 2023. Au cours de ma formation au sein de cette école, j'ai eu l'opportunité de partir 1 semestre au Canada à l'",
             "link3": "Université Laval",
             "text7": ", l'une des plus grande université du Québec, pour affiner mes connaissance en",
-            "color4": "développement Web 💻",
+            "color4": "gestion de projet 👨‍🏫",
             "text8": "et en",
-            "color5": "gestion de projet 👨‍🏫",
+            "color5": "jeux vidéos 🎮",
             "text9": "Ma formation, toujours centrée autour de l'informatique, m'a permise d'acquérir de solides compétences en",
             "color6": "développement Web 💻",
             "color7": "logiciel ⌨",
@@ -244,6 +244,8 @@
         "contact-btn": "Me contacter",
         "downloadCV-btn": "Télécharger mon CV",
         "copyEmail-btn": "Copier Email",
-        "url-cv": "/assets/CV - Pierre FABER.pdf"
+        "url-cv": "/assets/CV - Pierre FABER.pdf",
+        "download-portfolio-btn": "Télécharger le Portfolio au format PDF",
+        "portfolio-loading": "Création en cours..."
     }
 }

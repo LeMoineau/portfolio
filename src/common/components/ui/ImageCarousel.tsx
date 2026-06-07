@@ -2,7 +2,13 @@ import useEmblaCarousel from 'embla-carousel-react'
 import CustomIcon from '../img/CustomIcon'
 import { useEffect, useState } from 'react'
 
-export default function ImageCarousel({ images }: { images: string[] }) {
+export default function ImageCarousel({
+    images,
+    bgColor,
+}: {
+    images: string[]
+    bgColor?: string
+}) {
     // Initialisation du carrousel avec le plugin Autoplay
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [])
     const [currentImgIndex, setCurrentImgIndex] = useState(1)
@@ -54,6 +60,7 @@ export default function ImageCarousel({ images }: { images: string[] }) {
                             flex: '0 0 100%',
                             minWidth: 0,
                         }}
+                        className={`rounded-md ${bgColor ?? ''}`}
                     >
                         <CustomIcon
                             src={url}
