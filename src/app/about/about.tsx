@@ -7,7 +7,6 @@ import AboutIntro from '@/common/components/section/about/AboutIntro'
 import AboutMonParcours from '@/common/components/section/about/AboutParcours'
 import SubTitle from '@/common/components/text/SubTitle'
 import { useTranslation } from 'react-i18next'
-import DownloadPortfolioButton from '../../common/components/buttons/DownloadPortfolioButton'
 
 export default function AboutPage() {
     const { t } = useTranslation()

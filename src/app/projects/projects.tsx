@@ -13,7 +13,7 @@ export default function ProjectsPage() {
     const { t, i18n } = useTranslation()
     const [query, setQuery] = useState('')
     const [projectKeys, setProjectKeys] = useState(Object.keys(projectsData))
-    const [iconized, setIconized] = useState(false)
+    const [iconized, _] = useState(false)
 
     useEffect(() => {
         if (!!!query || query.trim().length <= 0) {

@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next'
 import CustomIcon from '../img/CustomIcon'
 import CustomLink from '../text/CustomLink'
 import ProjectTag from '../text/ProjectTag'
@@ -14,7 +13,6 @@ function ProjectButton({
     href: string
     iconized?: boolean
 }) {
-    const { i18n } = useTranslation()
     return (
         <CustomLink
             noblank
@@ -39,9 +37,6 @@ function ProjectButton({
                     <h3 className="text-center font-semibold mt-0">
                         {projectData.title}
                     </h3>
-                    {/* <p className="text-sm text-gray-700 ">
-                        {projectData.desc[i18n.language]}
-                    </p> */}
                     <div className="flex flex-row hidden w-full flex-wrap space-x-2 mt-3">
                         {projectData.tags.map((val, i) => (
                             <ProjectTag
