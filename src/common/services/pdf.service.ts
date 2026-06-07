@@ -16,7 +16,7 @@ class PDFService {
 
     _bgFrontPage: string = this._darkGrayBg
 
-    _addFrontPage(doc: jsPDF, generatedDate?: boolean) {
+    _addFrontPage(doc: jsPDF, locale: string, generatedDate?: boolean) {
         const pageWidth = doc.internal.pageSize.getWidth() // ~210mm
         const pageHeight = doc.internal.pageSize.getHeight() // ~297mm
 
@@ -43,14 +43,14 @@ class PDFService {
         if (!!generatedDate) {
             doc.setFontSize(11)
             doc.setTextColor(...this.hexToRgb(this._whiteTextColor))
-            const dateStr = new Date().toLocaleDateString('fr')
+            const dateStr = new Date().toLocaleDateString(locale)
             doc.text(`Généré le ${dateStr}`, pageWidth / 2, 122, {
                 align: 'center',
             })
         }
     }
 
-    _addPageHeader(doc: jsPDF, project: ProjectData) {
+    _addPageHeader(doc: jsPDF, project: ProjectData, locale: string) {
         const pageWidth = doc.internal.pageSize.getWidth() // ~210mm
         doc.setFillColor(this._darkGrayBg)
         doc.rect(0, 0, pageWidth, 25, 'F')
@@ -66,7 +66,7 @@ class PDFService {
         doc.setFontSize(10)
         const projDate =
             project.date instanceof Date
-                ? project.date.toLocaleDateString('fr', {
+                ? project.date.toLocaleDateString(locale, {
                       year: 'numeric',
                       month: 'long',
                   })
@@ -100,7 +100,7 @@ class PDFService {
     async generatePortfolio(
         projects: ProjectData[],
         locale = 'fr',
-        outputName = 'portfolio.pdf'
+        outputName = 'Pierre FABER - Portfolio.pdf'
     ) {
         // Création du document A4 (les unités sont en mm par défaut avec jsPDF)
         const doc = new jsPDF({
@@ -116,7 +116,7 @@ class PDFService {
         doc.setFont('Montserrat', 'normal')
 
         // --- 1. PAGE DE COUVERTURE ---
-        this._addFrontPage(doc)
+        this._addFrontPage(doc, locale)
 
         // --- 2. BOUCLE SUR LES PROJETS ---
         let projectCounter = 1
@@ -130,7 +130,7 @@ class PDFService {
             doc.addPage()
 
             // Header du projet (Bandeau coloré)
-            this._addPageHeader(doc, project)
+            this._addPageHeader(doc, project, locale)
 
             // Coordonnées de notre grille à 2 colonnes (en mm)
             const leftColX = 15

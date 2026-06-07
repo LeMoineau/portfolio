@@ -9,7 +9,7 @@ export default memo(function DownloadPortfolioButton({
 }: {
     className?: string
 }) {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
     const [disabled, setDisable] = useState(false)
 
     useEffect(() => {
@@ -20,12 +20,16 @@ export default memo(function DownloadPortfolioButton({
                         Object.values(projectsData)
                             .filter((p) => p.imgs.length > 1)
                             .slice(0, 20)
-                            .sort((a, b) => b.date.getTime() - a.date.getTime())
+                            .sort(
+                                (a, b) => b.date.getTime() - a.date.getTime()
+                            ),
+                        i18n.language,
+                        'Pierre FABER - Portfolio.pdf'
                     )
                     .then(() => {
                         setDisable(false)
                     })
-            }, 1000)
+            }, 500)
         }
     }, [disabled])
 
