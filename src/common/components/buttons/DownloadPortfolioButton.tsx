@@ -19,10 +19,8 @@ export default memo(function DownloadPortfolioButton({
                     .generatePortfolio(
                         Object.values(projectsData)
                             .filter((p) => p.imgs.length > 1)
-                            .slice(0, 20)
-                            .sort(
-                                (a, b) => b.date.getTime() - a.date.getTime()
-                            ),
+                            .sort((a, b) => b.date.getTime() - a.date.getTime())
+                            .slice(0, 20),
                         i18n.language,
                         'Pierre FABER - Portfolio.pdf'
                     )
